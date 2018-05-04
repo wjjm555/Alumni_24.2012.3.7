@@ -1,0 +1,5 @@
+package com.gbs.app.model.cards;
+
+public class BaseCard extends Card {
+
+}

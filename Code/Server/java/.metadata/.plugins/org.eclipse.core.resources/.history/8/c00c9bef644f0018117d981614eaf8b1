@@ -1,0 +1,9 @@
+package com.gbs.app.model.cards;
+
+public class BaseCard extends Card {
+
+	public BaseCard(String name,  Suit suit, Count count) {
+		super(name,  suit, count);
+	}
+
+}

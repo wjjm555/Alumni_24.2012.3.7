@@ -1,0 +1,41 @@
+package com.gbs.app;
+
+import java.util.ArrayList;
+
+import com.gbs.app.model.cards.KillBaseCard;
+import com.gbs.app.model.cards.model.Card;
+import com.gbs.app.model.cards.model.Card.Count;
+import com.gbs.app.model.cards.model.Card.Suit;
+import com.gbs.app.model.players.Role;
+
+public class Main {
+	public enum Stage {
+		Prepare_Initiative, Determine_Initiative, Scratch_Initiative, Play_Initiative, Discard_Initiative, Finish_Initiative, Prepare_Passive, Determine_Passive, Scratch_Passive, Play_Passive, Discard_Passive, Finish_Passive
+	}
+
+	public static void main(String[] args) {
+		Stage a = Stage.Prepare_Initiative;
+		
+		System.out.println(a);
+		// Card card = new Card(Card.Type.Base, Card.Suit.Spades, Card.Count._5);
+		// System.out.print("this is main:" + card.getSuit().equal(Card.Suit.Diamonds));
+
+		// Role role = new Role(Role.Group.A, Role.Gender.Male, 5);
+		// role.setDescribe("").setName("");
+		//
+		// KillBaseCard kbc = new KillBaseCard(Suit.Hearts, Count._4);
+		//
+		// kbc.getSkills().get(0).execute();
+		//
+		// ArrayList<Integer> allCards = new ArrayList<>();
+		// allCards.add(1);
+		// ArrayList<Integer> standardCards = (ArrayList<Integer>) allCards.clone();
+		//
+		// standardCards.add(2);
+		//
+		//
+		// System.out.println(allCards.toString());
+		// System.out.println(standardCards.toString());
+
+	}
+}

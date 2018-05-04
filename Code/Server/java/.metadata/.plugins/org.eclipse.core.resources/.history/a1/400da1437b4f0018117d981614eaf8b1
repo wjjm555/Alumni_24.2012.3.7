@@ -1,0 +1,17 @@
+package com.gbs.app.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.gbs.app.model.cards.model.Card;
+
+public class Board {
+	public final int cardsCount = 50;
+
+	private List<Card> allCards = new ArrayList<>(cardsCount);
+	private List<Card> standardCards = new ArrayList<>(cardsCount);
+
+	public Board() {
+		// TODO Auto-generated constructor stub
+	}
+}

@@ -1,0 +1,19 @@
+package com.gbs.app.model.cards;
+
+public abstract class EquipCard extends Card {
+
+	private final Type type;
+
+	public EquipCard(Suit suit, Count count, Type type) {
+		super(Card.Type.Equip, suit, count);
+		this.type = type;
+	}
+
+	public enum Type {
+		Weapon, Shield, Mounts
+	}
+
+	public com.gbs.app.model.cards.Card.EquipCard.Type getType() {
+		return type;
+	}
+}

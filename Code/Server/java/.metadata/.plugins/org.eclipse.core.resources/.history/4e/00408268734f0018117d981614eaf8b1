@@ -1,0 +1,17 @@
+package com.gbs.app;
+
+import com.gbs.app.model.cards.Card;
+import com.gbs.app.model.players.Role;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Card card = new Card(Card.Type.Base, Card.Suit.Spades, Card.Count._5);
+		System.out.print("this is main:" + card.getSuit().equal(Card.Suit.Diamonds));
+
+		Role role = new Role(Role.Group.A, Role.Gender.Male, 5);
+		role.setDescribe("").setName("");
+
+	}
+}

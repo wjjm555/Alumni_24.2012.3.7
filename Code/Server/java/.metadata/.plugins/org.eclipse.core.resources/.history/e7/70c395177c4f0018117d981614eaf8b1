@@ -1,0 +1,28 @@
+package com.gbs.app;
+
+import java.util.ArrayList;
+
+import com.gbs.app.model.cards.KillBaseCard;
+import com.gbs.app.model.cards.model.Card;
+import com.gbs.app.model.cards.model.Card.Count;
+import com.gbs.app.model.cards.model.Card.Suit;
+import com.gbs.app.model.players.Role;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Card card = new Card(Card.Type.Base, Card.Suit.Spades, Card.Count._5);
+		// System.out.print("this is main:" + card.getSuit().equal(Card.Suit.Diamonds));
+
+		// Role role = new Role(Role.Group.A, Role.Gender.Male, 5);
+		// role.setDescribe("").setName("");
+		//
+		// KillBaseCard kbc = new KillBaseCard(Suit.Hearts, Count._4);
+		//
+		// kbc.getSkills().get(0).execute();
+
+		ArrayList<Card> allCards = new ArrayList<>();
+		ArrayList<Card> standardCards = (ArrayList<Card>) allCards.clone();
+	}
+}

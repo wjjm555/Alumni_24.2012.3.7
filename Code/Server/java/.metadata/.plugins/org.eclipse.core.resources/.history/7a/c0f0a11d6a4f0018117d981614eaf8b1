@@ -1,0 +1,30 @@
+package com.gbs.app.model.players;
+
+public class Role {
+
+	private final Group group;
+	private byte blood;
+
+	public Role(Group group) {
+		this.group = group;
+	}
+
+	public Group getGroup() {
+		return group;
+	}
+
+	public enum Group {
+		S("S"), A("A"), B("B"), C("C"), D("D");
+
+		private final String name;
+
+		public String getName() {
+			return name;
+		}
+
+		private Group(String name) {
+			this.name = name;
+		}
+	}
+
+}

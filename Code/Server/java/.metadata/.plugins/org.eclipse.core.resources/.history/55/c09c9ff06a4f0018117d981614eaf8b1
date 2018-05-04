@@ -1,0 +1,5 @@
+package com.gbs.app.model;
+
+public class Base {
+	private String describe;
+}

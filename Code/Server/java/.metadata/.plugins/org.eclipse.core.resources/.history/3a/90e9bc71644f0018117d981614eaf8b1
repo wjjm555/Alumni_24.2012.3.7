@@ -1,0 +1,70 @@
+package com.gbs.app.model.cards;
+
+public class Card {
+
+	private final String name;
+	private final Suit suit;
+	private final Count count;
+
+	public Card(String name, Suit suit, Count count) {
+		this.name = name;
+		this.suit = suit;
+		this.count = count;
+	}
+	public enum Type {
+		
+	}
+	public enum Suit {
+		Spades, Hearts, Diamonds, Clubs;
+
+		public boolean equal(Suit suit) {
+			return this.equals(suit);
+		}
+	}
+
+	public enum Count {
+		_A((byte) 1), _2((byte) 2), _3((byte) 3), _4((byte) 4), _5((byte) 5), _6((byte) 6), _7((byte) 7), _8((byte) 8), _9((byte) 9), _10((byte) 10), _J((byte) 11), _Q((byte) 12), _K((byte) 13);
+
+		private final byte count;
+
+		public byte getCount() {
+			return count;
+		}
+
+		private Count(byte count) {
+			this.count = count;
+		}
+
+		public boolean scope(Count start, Count end) {
+			return getCount() >= start.getCount() && getCount() <= end.getCount();
+		}
+
+		public boolean greater_equal(Count count) {
+			return equal(count) || greater(count);
+		}
+
+		public boolean less_equal(Count count) {
+			return equal(count) || less(count);
+		}
+
+		public boolean greater(Count count) {
+			return count.getCount() < this.getCount();
+		}
+
+		public boolean less(Count count) {
+			return count.getCount() > this.getCount();
+		}
+
+		public boolean equal(Count count) {
+			return count.getCount() == this.getCount();
+		}
+	}
+
+	public Suit getSuit() {
+		return suit;
+	}
+
+	public Count getCount() {
+		return count;
+	}
+}

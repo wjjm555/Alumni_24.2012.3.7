@@ -1,0 +1,9 @@
+package com.gbs.app.model.cards;
+
+public class KitCard extends Card {
+
+	public KitCard(String name, Suit suit, Count count) {
+		super(name, Card.Type.Kit, suit, count);
+	}
+
+}

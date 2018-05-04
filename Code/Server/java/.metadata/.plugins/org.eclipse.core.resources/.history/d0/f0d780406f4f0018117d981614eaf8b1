@@ -1,0 +1,15 @@
+package com.gbs.app.model.skills;
+
+import com.gbs.app.model.Base;
+import com.gbs.app.model.players.Role;
+
+public class Skill extends Base {
+
+	public enum Type{
+		
+	}
+	
+	public Object execute(Role... role) {
+		return null;
+	}
+}

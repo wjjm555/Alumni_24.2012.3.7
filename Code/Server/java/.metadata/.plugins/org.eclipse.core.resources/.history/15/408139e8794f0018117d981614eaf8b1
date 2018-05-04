@@ -1,0 +1,44 @@
+package com.gbs.app.model.players;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.gbs.app.model.cards.model.Card;
+import com.gbs.app.model.cards.model.EquipCard;
+import com.gbs.app.model.cards.model.KitCard;
+
+public class Player {
+	private final Identity identity;
+
+	private List<Card> handBrand = new ArrayList<>();
+	private List<EquipCard> equipmentBrand = new ArrayList<>();
+	private List<KitCard> determineBrand = new ArrayList<>();
+
+	public Player(Identity identity) {
+		this.identity = identity;
+	}
+
+	public enum Identity {
+		Master, Loyal, Spy, Thief;
+
+		public boolean equal(Identity identity) {
+			return this.equals(identity);
+		}
+	}
+
+	public Identity getIdentity() {
+		return identity;
+	}
+
+	public void scratchCard() {
+
+	}
+
+	public void playCard() {
+
+	}
+
+	public void disCard() {
+
+	}
+}

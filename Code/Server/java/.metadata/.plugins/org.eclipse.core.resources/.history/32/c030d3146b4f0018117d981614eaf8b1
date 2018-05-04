@@ -1,0 +1,13 @@
+package com.gbs.app.model;
+
+public class Base {
+	private String describe;
+
+	public String getDescribe() {
+		return describe;
+	}
+
+	public void setDescribe(String describe) {
+		this.describe = describe;
+	}
+}

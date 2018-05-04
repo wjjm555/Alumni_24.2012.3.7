@@ -1,0 +1,17 @@
+package com.gbs.app.model.cards;
+
+import com.gbs.app.model.players.Role;
+
+public class KitCard extends Card {
+
+	public KitCard(String name, Suit suit, Count count) {
+		super(name, Card.Type.Kit, suit, count);
+	}
+
+	@Override
+	public Object execute(Role... role) {
+		// TODO Auto-generated method stub
+		return super.execute(role);
+	}
+	
+}

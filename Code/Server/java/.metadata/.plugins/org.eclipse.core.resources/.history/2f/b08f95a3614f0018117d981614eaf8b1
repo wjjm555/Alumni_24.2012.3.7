@@ -1,0 +1,5 @@
+package com.gbs.app.model.players;
+
+public class Player {
+
+}

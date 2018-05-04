@@ -1,0 +1,11 @@
+package com.gbs.app.model.cards;
+
+import com.gbs.app.model.players.Role;
+
+public class KitCard extends Card {
+
+	public KitCard(Suit suit, Count count) {
+		super(Card.Type.Kit, suit, count);
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.gbs.app.model.cards;
+
+public abstract class KitCard extends Card {
+
+	public KitCard(Suit suit, Count count) {
+		super(Card.Type.Kit, suit, count);
+	}
+
+}

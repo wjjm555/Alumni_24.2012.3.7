@@ -1,0 +1,9 @@
+package com.gbs.app.model.cards;
+
+public abstract class EquipCard extends Card {
+
+	public EquipCard(Suit suit, Count count) {
+		super(Card.Type.Equip, suit, count);
+	}
+
+}
