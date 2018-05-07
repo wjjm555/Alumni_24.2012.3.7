@@ -9,14 +9,15 @@ var usersRouter = require('./routes/users');
 var chat = require('./routes/chat');
 var ejs = require('ejs');
 
-var structure = require('./public/javascripts/structure');
+var Card = require('./public/javascripts/model/standardCard');
 
 var app = express();
 
-
 // console.debug(structure.a);
-console.debug(structure.round);
-structure.test();
+var card = new Card();
+card.name = "cjm";
+console.debug(card);
+// structure.test();
 // var round = Round('cjm');
 // round.test();
 

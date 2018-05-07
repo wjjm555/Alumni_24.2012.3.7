@@ -1,25 +1,30 @@
-class Skill { //技能
+class Skill {
     constructor(name) {
         this.name = name
     }
 }
-class Role { //人物
+class Role {
     constructor(name, skills) {
         this.name = name
         this.skills = skills
     }
 }
-class JMC extends Role {
-    constructor(name, skills) {
-        super(name, skills);
-    }
-}
-class Round { //局
+
+class Round {
     constructor() {
-        this.roles = [new Role('a', [new Skill('qaz')]), new JMC('b'), new JMC('c'), new Role('d'), new Role('e')]
+        this.roles = [new Role('a', [new Skill('qaz')]), new Role('b'), new Role('c'), new Role('d'), new Role('e')]
+    }
+
+    toString() {
+        return JSON.stringify(this);
     }
 }
-var structure = {};
+class Player {
+
+}
+class Board {
+
+}
 
 function test() {
     let i = JSON.stringify(structure.round);
@@ -29,6 +34,7 @@ function test() {
 }
 
 
-structure.test = test;
-structure.round = new Round();
-module.exports = structure;
+// structure.test = test;
+// structure.round = new Round();
+module.exports = Round;
+// module.exports = structure;
