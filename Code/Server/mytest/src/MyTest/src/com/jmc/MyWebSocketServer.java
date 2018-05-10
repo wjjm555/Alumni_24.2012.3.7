@@ -10,7 +10,7 @@ import org.java_websocket.server.WebSocketServer;
 
 public class MyWebSocketServer extends WebSocketServer{
 
-	Set<WebSocket> set ;
+	Set<WebSocket> set;
 	
 	public MyWebSocketServer(int port) {
 		super(new InetSocketAddress(port));
