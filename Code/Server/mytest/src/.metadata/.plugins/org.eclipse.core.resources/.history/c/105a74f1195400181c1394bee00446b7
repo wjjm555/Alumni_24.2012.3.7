@@ -1,0 +1,5 @@
+package com.jmc;
+
+public class MyWebSocketServer {
+
+}

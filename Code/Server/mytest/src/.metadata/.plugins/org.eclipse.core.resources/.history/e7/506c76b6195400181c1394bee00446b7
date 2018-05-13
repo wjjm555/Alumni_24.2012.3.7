@@ -1,0 +1,13 @@
+package com.jmc;
+
+import java.net.ServerSocket;
+
+public class TestClass {
+
+	public boolean createSocket() {
+		
+		ServerSocket ss=null;
+		
+		return true;
+	}
+}

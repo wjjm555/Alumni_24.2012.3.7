@@ -1,0 +1,17 @@
+package com.jmc;
+
+import java.net.ServerSocket;
+
+import org.java_websocket.WebSocket;
+
+public class TestClass {
+
+	public boolean createSocket() {
+		
+		ServerSocket ss=null;
+		
+		WebSocket wb;
+		
+		return true;
+	}
+}

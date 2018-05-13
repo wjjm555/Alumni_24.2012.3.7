@@ -1,4 +1,5 @@
 0 info it worked if it ends with ok
+<<<<<<< HEAD
 1 verbose cli [ 'D:\\nodejs\\node.exe',
 1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'i',
@@ -4596,3 +4597,1917 @@
 3396 error     npm owner ls java
 3396 error There is likely additional logging output above.
 3397 verbose exit [ 1, true ]
+=======
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'tagg2' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData tagg2
+8 silly fetchNamedPackageData tagg2
+9 silly mapToRegistry name tagg2
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/tagg2
+13 verbose request uri https://registry.npmjs.org/tagg2
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 下午4:51:50
+16 verbose request id 12752e0c56f6f177
+17 http request GET https://registry.npmjs.org/tagg2
+18 http 200 https://registry.npmjs.org/tagg2
+19 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+19 verbose headers   server: 'UploadServer',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'last-modified': 'Thu, 29 Dec 2016 17:36:56 GMT',
+19 verbose headers   etag: '"586549b8-32380"',
+19 verbose headers   'x-npm-region': 'Asia',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'content-length': '8620',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Tue, 08 May 2018 08:51:52 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '0',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-nrt6128-NRT',
+19 verbose headers   'x-cache': 'MISS',
+19 verbose headers   'x-cache-hits': '0',
+19 verbose headers   'x-timer': 'S1525769511.375047,VS0,VE680',
+19 verbose headers   vary: 'Accept-Encoding, Accept' }
+20 silly get cb [ 200,
+20 silly get   { 'content-type': 'application/json; charset=UTF-8',
+20 silly get     server: 'UploadServer',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'last-modified': 'Thu, 29 Dec 2016 17:36:56 GMT',
+20 silly get     etag: '"586549b8-32380"',
+20 silly get     'x-npm-region': 'Asia',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'content-length': '8620',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Tue, 08 May 2018 08:51:52 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '0',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-nrt6128-NRT',
+20 silly get     'x-cache': 'MISS',
+20 silly get     'x-cache-hits': '0',
+20 silly get     'x-timer': 'S1525769511.375047,VS0,VE680',
+20 silly get     vary: 'Accept-Encoding, Accept' } ]
+21 verbose get saving tagg2 to /home/jmc/.npm/registry.npmjs.org/tagg2/.cache.json
+22 verbose makeDirectory /home/jmc/.npm creation not in flight; initializing
+23 silly makeDirectory /home/jmc/.npm uid: 1000 gid: 1000
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule tagg2@0.2.0 checking installable status
+37 silly cache add args [ 'tagg2', null ]
+38 verbose cache add spec tagg2
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'tagg2',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'tagg2',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed tagg2@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for tagg2
+42 info addNameTag [ 'tagg2', 'latest' ]
+43 silly mapToRegistry name tagg2
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/tagg2
+47 verbose addNameTag registry:https://registry.npmjs.org/tagg2 not in flight; fetching
+48 verbose get https://registry.npmjs.org/tagg2 not expired, no request
+49 silly addNameTag next cb for tagg2 with tag latest
+50 silly addNamed tagg2@0.2.0
+51 verbose addNamed "0.2.0" is a plain semver version for tagg2
+52 silly mapToRegistry name tagg2
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/tagg2
+56 verbose addRemoteTarball https://registry.npmjs.org/tagg2/-/tagg2-0.2.0.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/tagg2/-/tagg2-0.2.0.tgz',
+57 verbose addRemoteTarball   '67157f23a008195e2c69fc9d0ffa36c3ee7022fd' ]
+58 info retry fetch attempt 1 at 下午4:51:52
+59 info attempt registry request try #1 at 下午4:51:52
+60 http fetch GET https://registry.npmjs.org/tagg2/-/tagg2-0.2.0.tgz
+61 http fetch 200 https://registry.npmjs.org/tagg2/-/tagg2-0.2.0.tgz
+62 silly fetchAndShaCheck shasum 67157f23a008195e2c69fc9d0ffa36c3ee7022fd
+63 verbose addTmpTarball /tmp/npm-25275-05949c0f/registry.npmjs.org/tagg2/-/tagg2-0.2.0.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for tagg2@0.2.0
+65 silly cache afterAdd tagg2@0.2.0
+66 verbose afterAdd /home/jmc/.npm/tagg2/0.2.0/package/package.json not in flight; writing
+67 verbose afterAdd /home/jmc/.npm/tagg2/0.2.0/package/package.json written
+68 silly fetchNamedPackageData generic-pool
+69 silly mapToRegistry name generic-pool
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/generic-pool
+73 verbose request uri https://registry.npmjs.org/generic-pool
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 下午4:51:53
+76 http request GET https://registry.npmjs.org/generic-pool
+77 http 200 https://registry.npmjs.org/generic-pool
+78 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+78 verbose headers   server: 'UploadServer',
+78 verbose headers   'cache-control': 'max-age=300',
+78 verbose headers   'last-modified': 'Thu, 1 Mar 2018 21:59:57 GMT',
+78 verbose headers   etag: '"5a9877dd-1f65f"',
+78 verbose headers   'x-npm-region': 'Asia',
+78 verbose headers   'content-encoding': 'gzip',
+78 verbose headers   'content-length': '15006',
+78 verbose headers   'accept-ranges': 'bytes',
+78 verbose headers   date: 'Tue, 08 May 2018 08:51:53 GMT',
+78 verbose headers   via: '1.1 varnish',
+78 verbose headers   age: '7468',
+78 verbose headers   connection: 'keep-alive',
+78 verbose headers   'x-served-by': 'cache-nrt6146-NRT',
+78 verbose headers   'x-cache': 'HIT',
+78 verbose headers   'x-cache-hits': '4',
+78 verbose headers   'x-timer': 'S1525769514.662517,VS0,VE0',
+78 verbose headers   vary: 'Accept-Encoding, Accept' }
+79 silly get cb [ 200,
+79 silly get   { 'content-type': 'application/json; charset=UTF-8',
+79 silly get     server: 'UploadServer',
+79 silly get     'cache-control': 'max-age=300',
+79 silly get     'last-modified': 'Thu, 1 Mar 2018 21:59:57 GMT',
+79 silly get     etag: '"5a9877dd-1f65f"',
+79 silly get     'x-npm-region': 'Asia',
+79 silly get     'content-encoding': 'gzip',
+79 silly get     'content-length': '15006',
+79 silly get     'accept-ranges': 'bytes',
+79 silly get     date: 'Tue, 08 May 2018 08:51:53 GMT',
+79 silly get     via: '1.1 varnish',
+79 silly get     age: '7468',
+79 silly get     connection: 'keep-alive',
+79 silly get     'x-served-by': 'cache-nrt6146-NRT',
+79 silly get     'x-cache': 'HIT',
+79 silly get     'x-cache-hits': '4',
+79 silly get     'x-timer': 'S1525769514.662517,VS0,VE0',
+79 silly get     vary: 'Accept-Encoding, Accept' } ]
+80 verbose get saving generic-pool to /home/jmc/.npm/registry.npmjs.org/generic-pool/.cache.json
+81 silly resolveWithNewModule generic-pool@2.0.3 checking installable status
+82 silly cache add args [ 'generic-pool@2.0.3', null ]
+83 verbose cache add spec generic-pool@2.0.3
+84 silly cache add parsed spec Result {
+84 silly cache add   raw: 'generic-pool@2.0.3',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'generic-pool',
+84 silly cache add   rawSpec: '2.0.3',
+84 silly cache add   spec: '2.0.3',
+84 silly cache add   type: 'version' }
+85 silly addNamed generic-pool@2.0.3
+86 verbose addNamed "2.0.3" is a plain semver version for generic-pool
+87 silly mapToRegistry name generic-pool
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/generic-pool
+91 verbose addNameVersion registry:https://registry.npmjs.org/generic-pool not in flight; fetching
+92 verbose get https://registry.npmjs.org/generic-pool not expired, no request
+93 silly mapToRegistry name generic-pool
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/generic-pool
+97 verbose addRemoteTarball https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz not in flight; adding
+98 verbose addRemoteTarball [ 'https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz',
+98 verbose addRemoteTarball   'cfcd56f339b09815bcbc4b3f0ca275ae6107c781' ]
+99 info retry fetch attempt 1 at 下午4:51:53
+100 info attempt registry request try #1 at 下午4:51:53
+101 http fetch GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz
+102 http fetch 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz
+103 silly fetchAndShaCheck shasum cfcd56f339b09815bcbc4b3f0ca275ae6107c781
+104 verbose addTmpTarball /tmp/npm-25275-05949c0f/registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz not in flight; adding
+105 verbose addTmpTarball already have metadata; skipping unpack for generic-pool@2.0.3
+106 silly cache afterAdd generic-pool@2.0.3
+107 verbose afterAdd /home/jmc/.npm/generic-pool/2.0.3/package/package.json not in flight; writing
+108 verbose afterAdd /home/jmc/.npm/generic-pool/2.0.3/package/package.json written
+109 silly loadAllDepsIntoIdealTree Finishing
+110 silly idealTree:prePrune server@0.0.0
+110 silly idealTree:prePrune ├── accepts@1.3.5
+110 silly idealTree:prePrune ├── acorn-globals@1.0.9
+110 silly idealTree:prePrune ├── acorn@2.7.0
+110 silly idealTree:prePrune ├── after@0.8.2
+110 silly idealTree:prePrune ├── align-text@0.1.4
+110 silly idealTree:prePrune ├── amdefine@1.0.1
+110 silly idealTree:prePrune ├── array-flatten@1.1.1
+110 silly idealTree:prePrune ├── arraybuffer.slice@0.0.7
+110 silly idealTree:prePrune ├── asap@1.0.0
+110 silly idealTree:prePrune ├── async-limiter@1.0.0
+110 silly idealTree:prePrune ├── backo2@1.0.2
+110 silly idealTree:prePrune ├── base64-arraybuffer@0.1.5
+110 silly idealTree:prePrune ├── base64id@1.0.0
+110 silly idealTree:prePrune ├── basic-auth@2.0.0
+110 silly idealTree:prePrune ├── better-assert@1.0.2
+110 silly idealTree:prePrune ├── blob@0.0.4
+110 silly idealTree:prePrune ├── body-parser@1.18.2
+110 silly idealTree:prePrune ├── bytes@3.0.0
+110 silly idealTree:prePrune ├── callsite@1.0.0
+110 silly idealTree:prePrune ├── camelcase@1.2.1
+110 silly idealTree:prePrune ├── center-align@0.1.3
+110 silly idealTree:prePrune ├── character-parser@1.2.1
+110 silly idealTree:prePrune ├─┬ clean-css@3.4.28
+110 silly idealTree:prePrune │ └── commander@2.8.1
+110 silly idealTree:prePrune ├─┬ cliui@2.1.0
+110 silly idealTree:prePrune │ └── wordwrap@0.0.2
+110 silly idealTree:prePrune ├── commander@2.6.0
+110 silly idealTree:prePrune ├── component-bind@1.0.0
+110 silly idealTree:prePrune ├── component-emitter@1.2.1
+110 silly idealTree:prePrune ├── component-inherit@0.0.3
+110 silly idealTree:prePrune ├── constantinople@3.0.2
+110 silly idealTree:prePrune ├── content-disposition@0.5.2
+110 silly idealTree:prePrune ├── content-type@1.0.4
+110 silly idealTree:prePrune ├── cookie-parser@1.4.3
+110 silly idealTree:prePrune ├── cookie-signature@1.0.6
+110 silly idealTree:prePrune ├── cookie@0.3.1
+110 silly idealTree:prePrune ├── css-parse@1.0.4
+110 silly idealTree:prePrune ├── css-stringify@1.0.5
+110 silly idealTree:prePrune ├── css@1.0.8
+110 silly idealTree:prePrune ├── debug@2.6.9
+110 silly idealTree:prePrune ├── decamelize@1.2.0
+110 silly idealTree:prePrune ├── depd@1.1.2
+110 silly idealTree:prePrune ├── destroy@1.0.4
+110 silly idealTree:prePrune ├── ee-first@1.1.1
+110 silly idealTree:prePrune ├── ejs@2.5.9
+110 silly idealTree:prePrune ├── encodeurl@1.0.2
+110 silly idealTree:prePrune ├─┬ engine.io-client@3.2.1
+110 silly idealTree:prePrune │ └── debug@3.1.0
+110 silly idealTree:prePrune ├── engine.io-parser@2.1.2
+110 silly idealTree:prePrune ├─┬ engine.io@3.2.0
+110 silly idealTree:prePrune │ └── debug@3.1.0
+110 silly idealTree:prePrune ├── escape-html@1.0.3
+110 silly idealTree:prePrune ├── etag@1.8.1
+110 silly idealTree:prePrune ├── express@4.16.3
+110 silly idealTree:prePrune ├── finalhandler@1.1.1
+110 silly idealTree:prePrune ├── forwarded@0.1.2
+110 silly idealTree:prePrune ├── fresh@0.5.2
+110 silly idealTree:prePrune ├── generic-pool@2.0.3
+110 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+110 silly idealTree:prePrune ├── has-binary2@1.0.2
+110 silly idealTree:prePrune ├── has-cors@1.1.0
+110 silly idealTree:prePrune ├── http-errors@1.6.3
+110 silly idealTree:prePrune ├── iconv-lite@0.4.19
+110 silly idealTree:prePrune ├── indexof@0.0.1
+110 silly idealTree:prePrune ├── inherits@2.0.3
+110 silly idealTree:prePrune ├── ipaddr.js@1.6.0
+110 silly idealTree:prePrune ├── is-buffer@1.1.6
+110 silly idealTree:prePrune ├── is-promise@2.1.0
+110 silly idealTree:prePrune ├── isarray@2.0.1
+110 silly idealTree:prePrune ├── jade@1.11.0
+110 silly idealTree:prePrune ├── jstransformer@0.0.2
+110 silly idealTree:prePrune ├── kind-of@3.2.2
+110 silly idealTree:prePrune ├── lazy-cache@1.0.4
+110 silly idealTree:prePrune ├── longest@1.0.1
+110 silly idealTree:prePrune ├── media-typer@0.3.0
+110 silly idealTree:prePrune ├── merge-descriptors@1.0.1
+110 silly idealTree:prePrune ├── methods@1.1.2
+110 silly idealTree:prePrune ├── mime-db@1.33.0
+110 silly idealTree:prePrune ├── mime-types@2.1.18
+110 silly idealTree:prePrune ├── mime@1.4.1
+110 silly idealTree:prePrune ├── minimist@0.0.8
+110 silly idealTree:prePrune ├── mkdirp@0.5.1
+110 silly idealTree:prePrune ├── morgan@1.9.0
+110 silly idealTree:prePrune ├── ms@2.0.0
+110 silly idealTree:prePrune ├── negotiator@0.6.1
+110 silly idealTree:prePrune ├── object-component@0.0.3
+110 silly idealTree:prePrune ├── on-finished@2.3.0
+110 silly idealTree:prePrune ├── on-headers@1.0.1
+110 silly idealTree:prePrune ├── optimist@0.3.7
+110 silly idealTree:prePrune ├── parseqs@0.0.5
+110 silly idealTree:prePrune ├── parseuri@0.0.5
+110 silly idealTree:prePrune ├── parseurl@1.3.2
+110 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+110 silly idealTree:prePrune ├── promise@6.1.0
+110 silly idealTree:prePrune ├── proxy-addr@2.0.3
+110 silly idealTree:prePrune ├── qs@6.5.1
+110 silly idealTree:prePrune ├── range-parser@1.2.0
+110 silly idealTree:prePrune ├─┬ raw-body@2.3.2
+110 silly idealTree:prePrune │ ├── depd@1.1.1
+110 silly idealTree:prePrune │ ├── http-errors@1.6.2
+110 silly idealTree:prePrune │ └── setprototypeof@1.0.3
+110 silly idealTree:prePrune ├── repeat-string@1.6.1
+110 silly idealTree:prePrune ├── right-align@0.1.3
+110 silly idealTree:prePrune ├── safe-buffer@5.1.1
+110 silly idealTree:prePrune ├── send@0.16.2
+110 silly idealTree:prePrune ├── serve-static@1.13.2
+110 silly idealTree:prePrune ├── setprototypeof@1.1.0
+110 silly idealTree:prePrune ├── socket.io-adapter@1.1.1
+110 silly idealTree:prePrune ├─┬ socket.io-client@2.1.0
+110 silly idealTree:prePrune │ └── debug@3.1.0
+110 silly idealTree:prePrune ├─┬ socket.io-parser@3.2.0
+110 silly idealTree:prePrune │ └── debug@3.1.0
+110 silly idealTree:prePrune ├─┬ socket.io@2.1.0
+110 silly idealTree:prePrune │ └── debug@3.1.0
+110 silly idealTree:prePrune ├── source-map@0.4.4
+110 silly idealTree:prePrune ├── statuses@1.4.0
+110 silly idealTree:prePrune ├── tagg2@0.2.0
+110 silly idealTree:prePrune ├── to-array@0.1.4
+110 silly idealTree:prePrune ├─┬ transformers@2.1.0
+110 silly idealTree:prePrune │ ├── is-promise@1.0.1
+110 silly idealTree:prePrune │ ├── promise@2.0.0
+110 silly idealTree:prePrune │ ├── source-map@0.1.43
+110 silly idealTree:prePrune │ └── uglify-js@2.2.5
+110 silly idealTree:prePrune ├── type-is@1.6.16
+110 silly idealTree:prePrune ├─┬ uglify-js@2.8.29
+110 silly idealTree:prePrune │ └── source-map@0.5.7
+110 silly idealTree:prePrune ├── uglify-to-browserify@1.0.2
+110 silly idealTree:prePrune ├── ultron@1.1.1
+110 silly idealTree:prePrune ├── unpipe@1.0.0
+110 silly idealTree:prePrune ├── utils-merge@1.0.1
+110 silly idealTree:prePrune ├── vary@1.1.2
+110 silly idealTree:prePrune ├── void-elements@2.0.1
+110 silly idealTree:prePrune ├── window-size@0.1.0
+110 silly idealTree:prePrune ├─┬ with@4.0.3
+110 silly idealTree:prePrune │ └── acorn@1.2.2
+110 silly idealTree:prePrune ├── wordwrap@0.0.3
+110 silly idealTree:prePrune ├── ws@3.3.3
+110 silly idealTree:prePrune ├── xmlhttprequest-ssl@1.5.5
+110 silly idealTree:prePrune ├── yargs@3.10.0
+110 silly idealTree:prePrune └── yeast@0.1.2
+111 silly loadIdealTree Finishing
+112 silly currentTree server@0.0.0
+112 silly currentTree ├── accepts@1.3.5
+112 silly currentTree ├── acorn-globals@1.0.9
+112 silly currentTree ├── acorn@2.7.0
+112 silly currentTree ├── after@0.8.2
+112 silly currentTree ├── align-text@0.1.4
+112 silly currentTree ├── amdefine@1.0.1
+112 silly currentTree ├── array-flatten@1.1.1
+112 silly currentTree ├── arraybuffer.slice@0.0.7
+112 silly currentTree ├── asap@1.0.0
+112 silly currentTree ├── async-limiter@1.0.0
+112 silly currentTree ├── backo2@1.0.2
+112 silly currentTree ├── base64-arraybuffer@0.1.5
+112 silly currentTree ├── base64id@1.0.0
+112 silly currentTree ├── basic-auth@2.0.0
+112 silly currentTree ├── better-assert@1.0.2
+112 silly currentTree ├── blob@0.0.4
+112 silly currentTree ├── body-parser@1.18.2
+112 silly currentTree ├── bytes@3.0.0
+112 silly currentTree ├── callsite@1.0.0
+112 silly currentTree ├── camelcase@1.2.1
+112 silly currentTree ├── center-align@0.1.3
+112 silly currentTree ├── character-parser@1.2.1
+112 silly currentTree ├─┬ clean-css@3.4.28
+112 silly currentTree │ └── commander@2.8.1
+112 silly currentTree ├─┬ cliui@2.1.0
+112 silly currentTree │ └── wordwrap@0.0.2
+112 silly currentTree ├── commander@2.6.0
+112 silly currentTree ├── component-bind@1.0.0
+112 silly currentTree ├── component-emitter@1.2.1
+112 silly currentTree ├── component-inherit@0.0.3
+112 silly currentTree ├── constantinople@3.0.2
+112 silly currentTree ├── content-disposition@0.5.2
+112 silly currentTree ├── content-type@1.0.4
+112 silly currentTree ├── cookie-parser@1.4.3
+112 silly currentTree ├── cookie-signature@1.0.6
+112 silly currentTree ├── cookie@0.3.1
+112 silly currentTree ├── css-parse@1.0.4
+112 silly currentTree ├── css-stringify@1.0.5
+112 silly currentTree ├── css@1.0.8
+112 silly currentTree ├── debug@2.6.9
+112 silly currentTree ├── decamelize@1.2.0
+112 silly currentTree ├── depd@1.1.2
+112 silly currentTree ├── destroy@1.0.4
+112 silly currentTree ├── ee-first@1.1.1
+112 silly currentTree ├── ejs@2.5.9
+112 silly currentTree ├── encodeurl@1.0.2
+112 silly currentTree ├─┬ engine.io-client@3.2.1
+112 silly currentTree │ └── debug@3.1.0
+112 silly currentTree ├── engine.io-parser@2.1.2
+112 silly currentTree ├─┬ engine.io@3.2.0
+112 silly currentTree │ └── debug@3.1.0
+112 silly currentTree ├── escape-html@1.0.3
+112 silly currentTree ├── etag@1.8.1
+112 silly currentTree ├── express@4.16.3
+112 silly currentTree ├── finalhandler@1.1.1
+112 silly currentTree ├── forwarded@0.1.2
+112 silly currentTree ├── fresh@0.5.2
+112 silly currentTree ├── graceful-readlink@1.0.1
+112 silly currentTree ├── has-binary2@1.0.2
+112 silly currentTree ├── has-cors@1.1.0
+112 silly currentTree ├── http-errors@1.6.3
+112 silly currentTree ├── iconv-lite@0.4.19
+112 silly currentTree ├── indexof@0.0.1
+112 silly currentTree ├── inherits@2.0.3
+112 silly currentTree ├── ipaddr.js@1.6.0
+112 silly currentTree ├── is-buffer@1.1.6
+112 silly currentTree ├── is-promise@2.1.0
+112 silly currentTree ├── isarray@2.0.1
+112 silly currentTree ├── jade@1.11.0
+112 silly currentTree ├── jstransformer@0.0.2
+112 silly currentTree ├── kind-of@3.2.2
+112 silly currentTree ├── lazy-cache@1.0.4
+112 silly currentTree ├── longest@1.0.1
+112 silly currentTree ├── media-typer@0.3.0
+112 silly currentTree ├── merge-descriptors@1.0.1
+112 silly currentTree ├── methods@1.1.2
+112 silly currentTree ├── mime-db@1.33.0
+112 silly currentTree ├── mime-types@2.1.18
+112 silly currentTree ├── mime@1.4.1
+112 silly currentTree ├── minimist@0.0.8
+112 silly currentTree ├── mkdirp@0.5.1
+112 silly currentTree ├── morgan@1.9.0
+112 silly currentTree ├── ms@2.0.0
+112 silly currentTree ├── negotiator@0.6.1
+112 silly currentTree ├── object-component@0.0.3
+112 silly currentTree ├── on-finished@2.3.0
+112 silly currentTree ├── on-headers@1.0.1
+112 silly currentTree ├── optimist@0.3.7
+112 silly currentTree ├── parseqs@0.0.5
+112 silly currentTree ├── parseuri@0.0.5
+112 silly currentTree ├── parseurl@1.3.2
+112 silly currentTree ├── path-to-regexp@0.1.7
+112 silly currentTree ├── promise@6.1.0
+112 silly currentTree ├── proxy-addr@2.0.3
+112 silly currentTree ├── qs@6.5.1
+112 silly currentTree ├── range-parser@1.2.0
+112 silly currentTree ├─┬ raw-body@2.3.2
+112 silly currentTree │ ├── depd@1.1.1
+112 silly currentTree │ ├── http-errors@1.6.2
+112 silly currentTree │ └── setprototypeof@1.0.3
+112 silly currentTree ├── repeat-string@1.6.1
+112 silly currentTree ├── right-align@0.1.3
+112 silly currentTree ├── safe-buffer@5.1.1
+112 silly currentTree ├── send@0.16.2
+112 silly currentTree ├── serve-static@1.13.2
+112 silly currentTree ├── setprototypeof@1.1.0
+112 silly currentTree ├── socket.io-adapter@1.1.1
+112 silly currentTree ├─┬ socket.io-client@2.1.0
+112 silly currentTree │ └── debug@3.1.0
+112 silly currentTree ├─┬ socket.io-parser@3.2.0
+112 silly currentTree │ └── debug@3.1.0
+112 silly currentTree ├─┬ socket.io@2.1.0
+112 silly currentTree │ └── debug@3.1.0
+112 silly currentTree ├── source-map@0.4.4
+112 silly currentTree ├── statuses@1.4.0
+112 silly currentTree ├── to-array@0.1.4
+112 silly currentTree ├─┬ transformers@2.1.0
+112 silly currentTree │ ├── is-promise@1.0.1
+112 silly currentTree │ ├── promise@2.0.0
+112 silly currentTree │ ├── source-map@0.1.43
+112 silly currentTree │ └── uglify-js@2.2.5
+112 silly currentTree ├── type-is@1.6.16
+112 silly currentTree ├─┬ uglify-js@2.8.29
+112 silly currentTree │ └── source-map@0.5.7
+112 silly currentTree ├── uglify-to-browserify@1.0.2
+112 silly currentTree ├── ultron@1.1.1
+112 silly currentTree ├── unpipe@1.0.0
+112 silly currentTree ├── utils-merge@1.0.1
+112 silly currentTree ├── vary@1.1.2
+112 silly currentTree ├── void-elements@2.0.1
+112 silly currentTree ├── window-size@0.1.0
+112 silly currentTree ├─┬ with@4.0.3
+112 silly currentTree │ └── acorn@1.2.2
+112 silly currentTree ├── wordwrap@0.0.3
+112 silly currentTree ├── ws@3.3.3
+112 silly currentTree ├── xmlhttprequest-ssl@1.5.5
+112 silly currentTree ├── yargs@3.10.0
+112 silly currentTree └── yeast@0.1.2
+113 silly idealTree server@0.0.0
+113 silly idealTree ├── accepts@1.3.5
+113 silly idealTree ├── acorn-globals@1.0.9
+113 silly idealTree ├── acorn@2.7.0
+113 silly idealTree ├── after@0.8.2
+113 silly idealTree ├── align-text@0.1.4
+113 silly idealTree ├── amdefine@1.0.1
+113 silly idealTree ├── array-flatten@1.1.1
+113 silly idealTree ├── arraybuffer.slice@0.0.7
+113 silly idealTree ├── asap@1.0.0
+113 silly idealTree ├── async-limiter@1.0.0
+113 silly idealTree ├── backo2@1.0.2
+113 silly idealTree ├── base64-arraybuffer@0.1.5
+113 silly idealTree ├── base64id@1.0.0
+113 silly idealTree ├── basic-auth@2.0.0
+113 silly idealTree ├── better-assert@1.0.2
+113 silly idealTree ├── blob@0.0.4
+113 silly idealTree ├── body-parser@1.18.2
+113 silly idealTree ├── bytes@3.0.0
+113 silly idealTree ├── callsite@1.0.0
+113 silly idealTree ├── camelcase@1.2.1
+113 silly idealTree ├── center-align@0.1.3
+113 silly idealTree ├── character-parser@1.2.1
+113 silly idealTree ├─┬ clean-css@3.4.28
+113 silly idealTree │ └── commander@2.8.1
+113 silly idealTree ├─┬ cliui@2.1.0
+113 silly idealTree │ └── wordwrap@0.0.2
+113 silly idealTree ├── commander@2.6.0
+113 silly idealTree ├── component-bind@1.0.0
+113 silly idealTree ├── component-emitter@1.2.1
+113 silly idealTree ├── component-inherit@0.0.3
+113 silly idealTree ├── constantinople@3.0.2
+113 silly idealTree ├── content-disposition@0.5.2
+113 silly idealTree ├── content-type@1.0.4
+113 silly idealTree ├── cookie-parser@1.4.3
+113 silly idealTree ├── cookie-signature@1.0.6
+113 silly idealTree ├── cookie@0.3.1
+113 silly idealTree ├── css-parse@1.0.4
+113 silly idealTree ├── css-stringify@1.0.5
+113 silly idealTree ├── css@1.0.8
+113 silly idealTree ├── debug@2.6.9
+113 silly idealTree ├── decamelize@1.2.0
+113 silly idealTree ├── depd@1.1.2
+113 silly idealTree ├── destroy@1.0.4
+113 silly idealTree ├── ee-first@1.1.1
+113 silly idealTree ├── ejs@2.5.9
+113 silly idealTree ├── encodeurl@1.0.2
+113 silly idealTree ├─┬ engine.io-client@3.2.1
+113 silly idealTree │ └── debug@3.1.0
+113 silly idealTree ├── engine.io-parser@2.1.2
+113 silly idealTree ├─┬ engine.io@3.2.0
+113 silly idealTree │ └── debug@3.1.0
+113 silly idealTree ├── escape-html@1.0.3
+113 silly idealTree ├── etag@1.8.1
+113 silly idealTree ├── express@4.16.3
+113 silly idealTree ├── finalhandler@1.1.1
+113 silly idealTree ├── forwarded@0.1.2
+113 silly idealTree ├── fresh@0.5.2
+113 silly idealTree ├── generic-pool@2.0.3
+113 silly idealTree ├── graceful-readlink@1.0.1
+113 silly idealTree ├── has-binary2@1.0.2
+113 silly idealTree ├── has-cors@1.1.0
+113 silly idealTree ├── http-errors@1.6.3
+113 silly idealTree ├── iconv-lite@0.4.19
+113 silly idealTree ├── indexof@0.0.1
+113 silly idealTree ├── inherits@2.0.3
+113 silly idealTree ├── ipaddr.js@1.6.0
+113 silly idealTree ├── is-buffer@1.1.6
+113 silly idealTree ├── is-promise@2.1.0
+113 silly idealTree ├── isarray@2.0.1
+113 silly idealTree ├── jade@1.11.0
+113 silly idealTree ├── jstransformer@0.0.2
+113 silly idealTree ├── kind-of@3.2.2
+113 silly idealTree ├── lazy-cache@1.0.4
+113 silly idealTree ├── longest@1.0.1
+113 silly idealTree ├── media-typer@0.3.0
+113 silly idealTree ├── merge-descriptors@1.0.1
+113 silly idealTree ├── methods@1.1.2
+113 silly idealTree ├── mime-db@1.33.0
+113 silly idealTree ├── mime-types@2.1.18
+113 silly idealTree ├── mime@1.4.1
+113 silly idealTree ├── minimist@0.0.8
+113 silly idealTree ├── mkdirp@0.5.1
+113 silly idealTree ├── morgan@1.9.0
+113 silly idealTree ├── ms@2.0.0
+113 silly idealTree ├── negotiator@0.6.1
+113 silly idealTree ├── object-component@0.0.3
+113 silly idealTree ├── on-finished@2.3.0
+113 silly idealTree ├── on-headers@1.0.1
+113 silly idealTree ├── optimist@0.3.7
+113 silly idealTree ├── parseqs@0.0.5
+113 silly idealTree ├── parseuri@0.0.5
+113 silly idealTree ├── parseurl@1.3.2
+113 silly idealTree ├── path-to-regexp@0.1.7
+113 silly idealTree ├── promise@6.1.0
+113 silly idealTree ├── proxy-addr@2.0.3
+113 silly idealTree ├── qs@6.5.1
+113 silly idealTree ├── range-parser@1.2.0
+113 silly idealTree ├─┬ raw-body@2.3.2
+113 silly idealTree │ ├── depd@1.1.1
+113 silly idealTree │ ├── http-errors@1.6.2
+113 silly idealTree │ └── setprototypeof@1.0.3
+113 silly idealTree ├── repeat-string@1.6.1
+113 silly idealTree ├── right-align@0.1.3
+113 silly idealTree ├── safe-buffer@5.1.1
+113 silly idealTree ├── send@0.16.2
+113 silly idealTree ├── serve-static@1.13.2
+113 silly idealTree ├── setprototypeof@1.1.0
+113 silly idealTree ├── socket.io-adapter@1.1.1
+113 silly idealTree ├─┬ socket.io-client@2.1.0
+113 silly idealTree │ └── debug@3.1.0
+113 silly idealTree ├─┬ socket.io-parser@3.2.0
+113 silly idealTree │ └── debug@3.1.0
+113 silly idealTree ├─┬ socket.io@2.1.0
+113 silly idealTree │ └── debug@3.1.0
+113 silly idealTree ├── source-map@0.4.4
+113 silly idealTree ├── statuses@1.4.0
+113 silly idealTree ├── tagg2@0.2.0
+113 silly idealTree ├── to-array@0.1.4
+113 silly idealTree ├─┬ transformers@2.1.0
+113 silly idealTree │ ├── is-promise@1.0.1
+113 silly idealTree │ ├── promise@2.0.0
+113 silly idealTree │ ├── source-map@0.1.43
+113 silly idealTree │ └── uglify-js@2.2.5
+113 silly idealTree ├── type-is@1.6.16
+113 silly idealTree ├─┬ uglify-js@2.8.29
+113 silly idealTree │ └── source-map@0.5.7
+113 silly idealTree ├── uglify-to-browserify@1.0.2
+113 silly idealTree ├── ultron@1.1.1
+113 silly idealTree ├── unpipe@1.0.0
+113 silly idealTree ├── utils-merge@1.0.1
+113 silly idealTree ├── vary@1.1.2
+113 silly idealTree ├── void-elements@2.0.1
+113 silly idealTree ├── window-size@0.1.0
+113 silly idealTree ├─┬ with@4.0.3
+113 silly idealTree │ └── acorn@1.2.2
+113 silly idealTree ├── wordwrap@0.0.3
+113 silly idealTree ├── ws@3.3.3
+113 silly idealTree ├── xmlhttprequest-ssl@1.5.5
+113 silly idealTree ├── yargs@3.10.0
+113 silly idealTree └── yeast@0.1.2
+114 silly generateActionsToTake Starting
+115 silly install generateActionsToTake
+116 silly generateActionsToTake Finishing
+117 silly diffTrees action count 4
+118 silly diffTrees add generic-pool@2.0.3
+119 silly diffTrees update ejs@2.5.9
+120 silly diffTrees update socket.io@2.1.0
+121 silly diffTrees add tagg2@0.2.0
+122 silly decomposeActions action count 32
+123 silly decomposeActions fetch generic-pool@2.0.3
+124 silly decomposeActions extract generic-pool@2.0.3
+125 silly decomposeActions test generic-pool@2.0.3
+126 silly decomposeActions preinstall generic-pool@2.0.3
+127 silly decomposeActions build generic-pool@2.0.3
+128 silly decomposeActions install generic-pool@2.0.3
+129 silly decomposeActions postinstall generic-pool@2.0.3
+130 silly decomposeActions finalize generic-pool@2.0.3
+131 silly decomposeActions fetch ejs@2.5.9
+132 silly decomposeActions extract ejs@2.5.9
+133 silly decomposeActions test ejs@2.5.9
+134 silly decomposeActions preinstall ejs@2.5.9
+135 silly decomposeActions build ejs@2.5.9
+136 silly decomposeActions install ejs@2.5.9
+137 silly decomposeActions postinstall ejs@2.5.9
+138 silly decomposeActions finalize ejs@2.5.9
+139 silly decomposeActions fetch socket.io@2.1.0
+140 silly decomposeActions extract socket.io@2.1.0
+141 silly decomposeActions test socket.io@2.1.0
+142 silly decomposeActions preinstall socket.io@2.1.0
+143 silly decomposeActions build socket.io@2.1.0
+144 silly decomposeActions install socket.io@2.1.0
+145 silly decomposeActions postinstall socket.io@2.1.0
+146 silly decomposeActions finalize socket.io@2.1.0
+147 silly decomposeActions fetch tagg2@0.2.0
+148 silly decomposeActions extract tagg2@0.2.0
+149 silly decomposeActions test tagg2@0.2.0
+150 silly decomposeActions preinstall tagg2@0.2.0
+151 silly decomposeActions build tagg2@0.2.0
+152 silly decomposeActions install tagg2@0.2.0
+153 silly decomposeActions postinstall tagg2@0.2.0
+154 silly decomposeActions finalize tagg2@0.2.0
+155 silly executeActions Starting
+156 silly install executeActions
+157 silly doSerial global-install 0
+158 silly doParallel fetch 4
+159 verbose makeDirectory /home/jmc/.npm/_locks creation not in flight; initializing
+160 silly makeDirectory /home/jmc/.npm/_locks uid: 1000 gid: 1000
+161 verbose lock using /home/jmc/.npm/_locks/staging-3dfac1e1e7f14184.lock for /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging
+162 silly doParallel extract 4
+163 silly extract generic-pool@2.0.3
+164 silly extract ejs@2.5.9
+165 silly extract socket.io@2.1.0
+166 silly extract tagg2@0.2.0
+167 silly addNamed ejs@2.5.9
+168 verbose addNamed "2.5.9" is a plain semver version for ejs
+169 silly mapToRegistry name ejs
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry uri https://registry.npmjs.org/ejs
+173 verbose addNameVersion registry:https://registry.npmjs.org/ejs not in flight; fetching
+174 silly addNamed socket.io@2.1.0
+175 verbose addNamed "2.1.0" is a plain semver version for socket.io
+176 silly mapToRegistry name socket.io
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+180 verbose addNameVersion registry:https://registry.npmjs.org/socket.io not in flight; fetching
+181 verbose request uri https://registry.npmjs.org/ejs
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 下午4:51:54
+184 http request GET https://registry.npmjs.org/ejs
+185 verbose request uri https://registry.npmjs.org/socket.io
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 下午4:51:54
+188 http request GET https://registry.npmjs.org/socket.io
+189 verbose unbuild node_modules/.staging/generic-pool-9e622112
+190 verbose unbuild node_modules/.staging/tagg2-bc974de0
+191 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112 is being purged from base /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node
+192 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112
+193 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0 is being purged from base /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node
+194 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0
+195 verbose tar unpack /home/jmc/.npm/generic-pool/2.0.3/package.tgz
+196 verbose tar unpacking to /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112
+197 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112 is being purged
+198 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112
+199 verbose tar unpack /home/jmc/.npm/tagg2/0.2.0/package.tgz
+200 verbose tar unpacking to /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0
+201 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0 is being purged
+202 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0
+203 silly gunzTarPerm modes [ '775', '664' ]
+204 silly gunzTarPerm modes [ '775', '664' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+207 silly gunzTarPerm extractEntry package.json
+208 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+209 silly gunzTarPerm extractEntry .npmignore
+210 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+211 silly gunzTarPerm extractEntry README.md
+212 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+213 silly gunzTarPerm extractEntry .npmignore
+214 silly gunzTarPerm modified mode [ '.npmignore', 438, 436 ]
+215 silly gunzTarPerm extractEntry .travis.yml
+216 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+217 silly gunzTarPerm extractEntry README.md
+218 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+219 silly gunzTarPerm extractEntry LICENSE
+220 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+221 silly gunzTarPerm extractEntry fabfile.py
+222 silly gunzTarPerm modified mode [ 'fabfile.py', 420, 436 ]
+223 silly gunzTarPerm extractEntry lib/generic-pool.js
+224 silly gunzTarPerm modified mode [ 'lib/generic-pool.js', 420, 436 ]
+225 silly gunzTarPerm extractEntry test.js
+226 silly gunzTarPerm modified mode [ 'test.js', 438, 436 ]
+227 silly gunzTarPerm extractEntry index.js
+228 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+229 silly gunzTarPerm extractEntry Makefile
+230 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+231 silly gunzTarPerm extractEntry test/generic-pool.test.js
+232 silly gunzTarPerm modified mode [ 'test/generic-pool.test.js', 420, 436 ]
+233 silly gunzTarPerm extractEntry install.js
+234 silly gunzTarPerm modified mode [ 'install.js', 438, 436 ]
+235 silly gunzTarPerm extractEntry example/blank.js
+236 silly gunzTarPerm modified mode [ 'example/blank.js', 438, 436 ]
+237 silly gunzTarPerm extractEntry example/child.js
+238 silly gunzTarPerm modified mode [ 'example/child.js', 438, 436 ]
+239 silly gunzTarPerm extractEntry example/child_pool.js
+240 silly gunzTarPerm modified mode [ 'example/child_pool.js', 438, 436 ]
+241 silly gunzTarPerm extractEntry example/httpServer.js
+242 silly gunzTarPerm modified mode [ 'example/httpServer.js', 438, 436 ]
+243 silly gunzTarPerm extractEntry example/pool.js
+244 silly gunzTarPerm modified mode [ 'example/pool.js', 438, 436 ]
+245 silly gunzTarPerm extractEntry example/quick.js
+246 silly gunzTarPerm modified mode [ 'example/quick.js', 438, 436 ]
+247 silly gunzTarPerm extractEntry example/req_ex.js
+248 silly gunzTarPerm modified mode [ 'example/req_ex.js', 438, 436 ]
+249 silly gunzTarPerm extractEntry .travis.yml
+250 silly gunzTarPerm modified mode [ '.travis.yml', 438, 436 ]
+251 silly gunzTarPerm extractEntry lib/fastThread.js
+252 silly gunzTarPerm modified mode [ 'lib/fastThread.js', 438, 436 ]
+253 silly gunzTarPerm extractEntry lib/processRequire.js
+254 silly gunzTarPerm modified mode [ 'lib/processRequire.js', 438, 436 ]
+255 silly gunzTarPerm extractEntry lib/processThread.js
+256 silly gunzTarPerm modified mode [ 'lib/processThread.js', 438, 436 ]
+257 silly gunzTarPerm extractEntry lib/string_to_object.js
+258 silly gunzTarPerm modified mode [ 'lib/string_to_object.js', 438, 436 ]
+259 silly gunzTarPerm extractEntry lib/thread.js
+260 silly gunzTarPerm modified mode [ 'lib/thread.js', 438, 436 ]
+261 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112/node_modules is being purged
+262 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112/node_modules
+263 silly gunzTarPerm extractEntry deps/minifier/bin/minify
+264 silly gunzTarPerm modified mode [ 'deps/minifier/bin/minify', 438, 436 ]
+265 silly gunzTarPerm extractEntry deps/minifier/src/minify.c
+266 silly gunzTarPerm modified mode [ 'deps/minifier/src/minify.c', 438, 436 ]
+267 silly gunzTarPerm extractEntry deps/minifier/src/test
+268 silly gunzTarPerm modified mode [ 'deps/minifier/src/test', 438, 436 ]
+269 silly gunzTarPerm extractEntry deps/minifier/src/test.include.c
+270 silly gunzTarPerm modified mode [ 'deps/minifier/src/test.include.c', 438, 436 ]
+271 silly gunzTarPerm extractEntry deps/minifier/src/test_minifier.c
+272 silly gunzTarPerm modified mode [ 'deps/minifier/src/test_minifier.c', 438, 436 ]
+273 silly gunzTarPerm extractEntry binding.gyp
+274 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 436 ]
+275 silly gunzTarPerm extractEntry benchmark/httpServer_child.js
+276 silly gunzTarPerm modified mode [ 'benchmark/httpServer_child.js', 438, 436 ]
+277 silly gunzTarPerm extractEntry benchmark/httpServer_cluster.js
+278 silly gunzTarPerm modified mode [ 'benchmark/httpServer_cluster.js', 438, 436 ]
+279 silly gunzTarPerm extractEntry benchmark/httpServer_normal.js
+280 silly gunzTarPerm modified mode [ 'benchmark/httpServer_normal.js', 438, 436 ]
+281 silly gunzTarPerm extractEntry benchmark/httpServer_thread.js
+282 silly gunzTarPerm modified mode [ 'benchmark/httpServer_thread.js', 438, 436 ]
+283 silly gunzTarPerm extractEntry benchmark/httpServer_thread_pool.js
+284 silly gunzTarPerm modified mode [ 'benchmark/httpServer_thread_pool.js', 438, 436 ]
+285 silly gunzTarPerm extractEntry benchmark/request_client.js
+286 silly gunzTarPerm modified mode [ 'benchmark/request_client.js', 438, 436 ]
+287 silly gunzTarPerm extractEntry src/createPool.js
+288 silly gunzTarPerm modified mode [ 'src/createPool.js', 438, 436 ]
+289 silly gunzTarPerm extractEntry src/events.js
+290 silly gunzTarPerm modified mode [ 'src/events.js', 438, 436 ]
+291 silly gunzTarPerm extractEntry src/load.js
+292 silly gunzTarPerm modified mode [ 'src/load.js', 438, 436 ]
+293 silly gunzTarPerm extractEntry src/object_toString.js
+294 silly gunzTarPerm modified mode [ 'src/object_toString.js', 438, 436 ]
+295 silly gunzTarPerm extractEntry src/path_resolve.js
+296 silly gunzTarPerm modified mode [ 'src/path_resolve.js', 438, 436 ]
+297 silly gunzTarPerm extractEntry src/thread_nextTick.js
+298 silly gunzTarPerm modified mode [ 'src/thread_nextTick.js', 438, 436 ]
+299 silly gunzTarPerm extractEntry src/minify_cmd
+300 silly gunzTarPerm modified mode [ 'src/minify_cmd', 438, 436 ]
+301 silly gunzTarPerm extractEntry src/events.js.c
+302 silly gunzTarPerm modified mode [ 'src/events.js.c', 438, 436 ]
+303 silly gunzTarPerm extractEntry src/createPool.js.c
+304 silly gunzTarPerm modified mode [ 'src/createPool.js.c', 438, 436 ]
+305 silly gunzTarPerm extractEntry src/thread_nextTick.js.c
+306 silly gunzTarPerm modified mode [ 'src/thread_nextTick.js.c', 438, 436 ]
+307 silly gunzTarPerm extractEntry src/path_resolve.js.c
+308 silly gunzTarPerm modified mode [ 'src/path_resolve.js.c', 438, 436 ]
+309 silly gunzTarPerm extractEntry src/pthreads.2/README
+310 silly gunzTarPerm modified mode [ 'src/pthreads.2/README', 438, 436 ]
+311 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutex_init.c
+312 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutex_init.c', 438, 436 ]
+313 silly gunzTarPerm extractEntry src/pthreads.2/barrier.c
+314 silly gunzTarPerm modified mode [ 'src/pthreads.2/barrier.c', 438, 436 ]
+315 silly gunzTarPerm extractEntry src/pthreads.2/Bmakefile
+316 silly gunzTarPerm modified mode [ 'src/pthreads.2/Bmakefile', 438, 436 ]
+317 silly gunzTarPerm extractEntry src/pthreads.2/BUGS
+318 silly gunzTarPerm modified mode [ 'src/pthreads.2/BUGS', 438, 436 ]
+319 silly gunzTarPerm extractEntry src/pthreads.2/builddmc.bat
+320 silly gunzTarPerm modified mode [ 'src/pthreads.2/builddmc.bat', 438, 436 ]
+321 silly gunzTarPerm extractEntry src/pthreads.2/cancel.c
+322 silly gunzTarPerm modified mode [ 'src/pthreads.2/cancel.c', 438, 436 ]
+323 silly gunzTarPerm extractEntry src/pthreads.2/ChangeLog
+324 silly gunzTarPerm modified mode [ 'src/pthreads.2/ChangeLog', 438, 436 ]
+325 silly gunzTarPerm extractEntry src/pthreads.2/cleanup.c
+326 silly gunzTarPerm modified mode [ 'src/pthreads.2/cleanup.c', 438, 436 ]
+327 silly gunzTarPerm extractEntry src/pthreads.2/condvar.c
+328 silly gunzTarPerm modified mode [ 'src/pthreads.2/condvar.c', 438, 436 ]
+329 silly gunzTarPerm extractEntry src/pthreads.2/config.h
+330 silly gunzTarPerm modified mode [ 'src/pthreads.2/config.h', 438, 436 ]
+331 silly gunzTarPerm extractEntry src/pthreads.2/CONTRIBUTORS
+332 silly gunzTarPerm modified mode [ 'src/pthreads.2/CONTRIBUTORS', 438, 436 ]
+333 silly gunzTarPerm extractEntry src/pthreads.2/COPYING
+334 silly gunzTarPerm modified mode [ 'src/pthreads.2/COPYING', 438, 436 ]
+335 silly gunzTarPerm extractEntry src/pthreads.2/COPYING.LIB
+336 silly gunzTarPerm modified mode [ 'src/pthreads.2/COPYING.LIB', 438, 436 ]
+337 silly gunzTarPerm extractEntry src/pthreads.2/create.c
+338 silly gunzTarPerm modified mode [ 'src/pthreads.2/create.c', 438, 436 ]
+339 silly gunzTarPerm extractEntry src/pthreads.2/dll.c
+340 silly gunzTarPerm modified mode [ 'src/pthreads.2/dll.c', 438, 436 ]
+341 silly gunzTarPerm extractEntry src/pthreads.2/errno.c
+342 silly gunzTarPerm modified mode [ 'src/pthreads.2/errno.c', 438, 436 ]
+343 silly gunzTarPerm extractEntry src/pthreads.2/exit.c
+344 silly gunzTarPerm modified mode [ 'src/pthreads.2/exit.c', 438, 436 ]
+345 silly gunzTarPerm extractEntry src/pthreads.2/FAQ
+346 silly gunzTarPerm modified mode [ 'src/pthreads.2/FAQ', 438, 436 ]
+347 silly gunzTarPerm extractEntry src/pthreads.2/fork.c
+348 silly gunzTarPerm modified mode [ 'src/pthreads.2/fork.c', 438, 436 ]
+349 silly gunzTarPerm extractEntry src/pthreads.2/global.c
+350 silly gunzTarPerm modified mode [ 'src/pthreads.2/global.c', 438, 436 ]
+351 silly gunzTarPerm extractEntry src/pthreads.2/GNUmakefile
+352 silly gunzTarPerm modified mode [ 'src/pthreads.2/GNUmakefile', 438, 436 ]
+353 silly gunzTarPerm extractEntry src/pthreads.2/implement.h
+354 silly gunzTarPerm modified mode [ 'src/pthreads.2/implement.h', 438, 436 ]
+355 silly gunzTarPerm extractEntry src/pthreads.2/MAINTAINERS
+356 silly gunzTarPerm modified mode [ 'src/pthreads.2/MAINTAINERS', 438, 436 ]
+357 silly gunzTarPerm extractEntry src/pthreads.2/Makefile
+358 silly gunzTarPerm modified mode [ 'src/pthreads.2/Makefile', 438, 436 ]
+359 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_mutex_init.html
+360 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_mutex_init.html', 438, 436 ]
+361 silly gunzTarPerm extractEntry src/pthreads.2/manual/ChangeLog
+362 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/ChangeLog', 438, 436 ]
+363 silly gunzTarPerm extractEntry src/pthreads.2/manual/PortabilityIssues.html
+364 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/PortabilityIssues.html', 438, 436 ]
+365 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthreadCancelableWait.html
+366 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthreadCancelableWait.html', 438, 436 ]
+367 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_attr_init.html
+368 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_attr_init.html', 438, 436 ]
+369 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_attr_setstackaddr.html
+370 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_attr_setstackaddr.html',
+370 silly gunzTarPerm   438,
+370 silly gunzTarPerm   436 ]
+371 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_attr_setstacksize.html
+372 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_attr_setstacksize.html',
+372 silly gunzTarPerm   438,
+372 silly gunzTarPerm   436 ]
+373 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_barrierattr_init.html
+374 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_barrierattr_init.html',
+374 silly gunzTarPerm   438,
+374 silly gunzTarPerm   436 ]
+375 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_barrierattr_setpshared.html
+376 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_barrierattr_setpshared.html',
+376 silly gunzTarPerm   438,
+376 silly gunzTarPerm   436 ]
+377 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_barrier_init.html
+378 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_barrier_init.html', 438, 436 ]
+379 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_barrier_wait.html
+380 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_barrier_wait.html', 438, 436 ]
+381 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_cancel.html
+382 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_cancel.html', 438, 436 ]
+383 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_cleanup_push.html
+384 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_cleanup_push.html', 438, 436 ]
+385 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_condattr_init.html
+386 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_condattr_init.html', 438, 436 ]
+387 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_condattr_setpshared.html
+388 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_condattr_setpshared.html',
+388 silly gunzTarPerm   438,
+388 silly gunzTarPerm   436 ]
+389 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_cond_init.html
+390 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_cond_init.html', 438, 436 ]
+391 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_create.html
+392 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_create.html', 438, 436 ]
+393 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_delay_np.html
+394 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_delay_np.html', 438, 436 ]
+395 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_detach.html
+396 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_detach.html', 438, 436 ]
+397 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_equal.html
+398 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_equal.html', 438, 436 ]
+399 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_exit.html
+400 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_exit.html', 438, 436 ]
+401 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_getw32threadhandle_np.html
+402 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_getw32threadhandle_np.html',
+402 silly gunzTarPerm   438,
+402 silly gunzTarPerm   436 ]
+403 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_join.html
+404 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_join.html', 438, 436 ]
+405 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_key_create.html
+406 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_key_create.html', 438, 436 ]
+407 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_kill.html
+408 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_kill.html', 438, 436 ]
+409 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_mutexattr_init.html
+410 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_mutexattr_init.html', 438, 436 ]
+411 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_mutexattr_setpshared.html
+412 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_mutexattr_setpshared.html',
+412 silly gunzTarPerm   438,
+412 silly gunzTarPerm   436 ]
+413 silly gunzTarPerm extractEntry src/pthreads.2/manual/index.html
+414 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/index.html', 438, 436 ]
+415 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_num_processors_np.html
+416 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_num_processors_np.html',
+416 silly gunzTarPerm   438,
+416 silly gunzTarPerm   436 ]
+417 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_once.html
+418 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_once.html', 438, 436 ]
+419 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlockattr_init.html
+420 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlockattr_init.html',
+420 silly gunzTarPerm   438,
+420 silly gunzTarPerm   436 ]
+421 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlockattr_setpshared.html
+422 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlockattr_setpshared.html',
+422 silly gunzTarPerm   438,
+422 silly gunzTarPerm   436 ]
+423 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlock_init.html
+424 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlock_init.html', 438, 436 ]
+425 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlock_rdlock.html
+426 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlock_rdlock.html', 438, 436 ]
+427 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlock_timedrdlock.html
+428 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlock_timedrdlock.html',
+428 silly gunzTarPerm   438,
+428 silly gunzTarPerm   436 ]
+429 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlock_timedwrlock.html
+430 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlock_timedwrlock.html',
+430 silly gunzTarPerm   438,
+430 silly gunzTarPerm   436 ]
+431 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlock_unlock.html
+432 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlock_unlock.html', 438, 436 ]
+433 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_rwlock_wrlock.html
+434 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_rwlock_wrlock.html', 438, 436 ]
+435 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_self.html
+436 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_self.html', 438, 436 ]
+437 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_setcancelstate.html
+438 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_setcancelstate.html', 438, 436 ]
+439 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_setcanceltype.html
+440 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_setcanceltype.html', 438, 436 ]
+441 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_setconcurrency.html
+442 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_setconcurrency.html', 438, 436 ]
+443 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_setschedparam.html
+444 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_setschedparam.html', 438, 436 ]
+445 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_spin_init.html
+446 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_spin_init.html', 438, 436 ]
+447 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_spin_lock.html
+448 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_spin_lock.html', 438, 436 ]
+449 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_spin_unlock.html
+450 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_spin_unlock.html', 438, 436 ]
+451 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_timechange_handler_np.html
+452 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_timechange_handler_np.html',
+452 silly gunzTarPerm   438,
+452 silly gunzTarPerm   436 ]
+453 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_win32_attach_detach_np.html
+454 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_win32_attach_detach_np.html',
+454 silly gunzTarPerm   438,
+454 silly gunzTarPerm   436 ]
+455 silly gunzTarPerm extractEntry src/pthreads.2/manual/pthread_win32_test_features_np.html
+456 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/pthread_win32_test_features_np.html',
+456 silly gunzTarPerm   438,
+456 silly gunzTarPerm   436 ]
+457 silly gunzTarPerm extractEntry src/pthreads.2/manual/sched_getscheduler.html
+458 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/sched_getscheduler.html', 438, 436 ]
+459 silly gunzTarPerm extractEntry src/pthreads.2/manual/sched_get_priority_max.html
+460 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/sched_get_priority_max.html', 438, 436 ]
+461 silly gunzTarPerm extractEntry src/pthreads.2/manual/sched_setscheduler.html
+462 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/sched_setscheduler.html', 438, 436 ]
+463 silly gunzTarPerm extractEntry src/pthreads.2/manual/sched_yield.html
+464 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/sched_yield.html', 438, 436 ]
+465 silly gunzTarPerm extractEntry src/pthreads.2/manual/sem_init.html
+466 silly gunzTarPerm modified mode [ 'src/pthreads.2/manual/sem_init.html', 438, 436 ]
+467 silly gunzTarPerm extractEntry src/pthreads.2/misc.c
+468 silly gunzTarPerm modified mode [ 'src/pthreads.2/misc.c', 438, 436 ]
+469 silly gunzTarPerm extractEntry src/pthreads.2/mutex.c
+470 silly gunzTarPerm modified mode [ 'src/pthreads.2/mutex.c', 438, 436 ]
+471 silly gunzTarPerm extractEntry src/pthreads.2/need_errno.h
+472 silly gunzTarPerm modified mode [ 'src/pthreads.2/need_errno.h', 438, 436 ]
+473 silly gunzTarPerm extractEntry src/pthreads.2/NEWS
+474 silly gunzTarPerm modified mode [ 'src/pthreads.2/NEWS', 438, 436 ]
+475 silly gunzTarPerm extractEntry src/pthreads.2/Nmakefile
+476 silly gunzTarPerm modified mode [ 'src/pthreads.2/Nmakefile', 438, 436 ]
+477 silly gunzTarPerm extractEntry src/pthreads.2/Nmakefile.tests
+478 silly gunzTarPerm modified mode [ 'src/pthreads.2/Nmakefile.tests', 438, 436 ]
+479 silly gunzTarPerm extractEntry src/pthreads.2/nonportable.c
+480 silly gunzTarPerm modified mode [ 'src/pthreads.2/nonportable.c', 438, 436 ]
+481 silly gunzTarPerm extractEntry src/pthreads.2/private.c
+482 silly gunzTarPerm modified mode [ 'src/pthreads.2/private.c', 438, 436 ]
+483 silly gunzTarPerm extractEntry src/pthreads.2/PROGRESS
+484 silly gunzTarPerm modified mode [ 'src/pthreads.2/PROGRESS', 438, 436 ]
+485 silly gunzTarPerm extractEntry src/pthreads.2/pthread.c
+486 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread.c', 438, 436 ]
+487 silly gunzTarPerm extractEntry src/pthreads.2/pthread.dsp
+488 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread.dsp', 438, 436 ]
+489 silly gunzTarPerm extractEntry src/pthreads.2/pthread.dsw
+490 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread.dsw', 438, 436 ]
+491 silly gunzTarPerm extractEntry src/pthreads.2/pthread.h
+492 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread.h', 438, 436 ]
+493 silly gunzTarPerm extractEntry src/pthreads.2/pthread.s
+494 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread.s', 438, 436 ]
+495 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_destroy.c
+496 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_destroy.c', 438, 436 ]
+497 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getdetachstate.c
+498 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getdetachstate.c', 438, 436 ]
+499 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getinheritsched.c
+500 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getinheritsched.c', 438, 436 ]
+501 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getschedparam.c
+502 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getschedparam.c', 438, 436 ]
+503 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getschedpolicy.c
+504 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getschedpolicy.c', 438, 436 ]
+505 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getscope.c
+506 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getscope.c', 438, 436 ]
+507 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getstackaddr.c
+508 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getstackaddr.c', 438, 436 ]
+509 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_getstacksize.c
+510 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_getstacksize.c', 438, 436 ]
+511 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_init.c
+512 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_init.c', 438, 436 ]
+513 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setdetachstate.c
+514 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setdetachstate.c', 438, 436 ]
+515 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setinheritsched.c
+516 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setinheritsched.c', 438, 436 ]
+517 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setschedparam.c
+518 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setschedparam.c', 438, 436 ]
+519 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setschedpolicy.c
+520 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setschedpolicy.c', 438, 436 ]
+521 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setscope.c
+522 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setscope.c', 438, 436 ]
+523 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setstackaddr.c
+524 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setstackaddr.c', 438, 436 ]
+525 silly gunzTarPerm extractEntry src/pthreads.2/pthread_attr_setstacksize.c
+526 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_attr_setstacksize.c', 438, 436 ]
+527 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrierattr_destroy.c
+528 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrierattr_destroy.c', 438, 436 ]
+529 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrierattr_getpshared.c
+530 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrierattr_getpshared.c', 438, 436 ]
+531 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrierattr_init.c
+532 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrierattr_init.c', 438, 436 ]
+533 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrierattr_setpshared.c
+534 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrierattr_setpshared.c', 438, 436 ]
+535 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrier_destroy.c
+536 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrier_destroy.c', 438, 436 ]
+537 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrier_init.c
+538 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrier_init.c', 438, 436 ]
+539 silly gunzTarPerm extractEntry src/pthreads.2/pthread_barrier_wait.c
+540 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_barrier_wait.c', 438, 436 ]
+541 silly gunzTarPerm extractEntry src/pthreads.2/pthread_cancel.c
+542 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_cancel.c', 438, 436 ]
+543 silly gunzTarPerm extractEntry src/pthreads.2/pthread_condattr_destroy.c
+544 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_condattr_destroy.c', 438, 436 ]
+545 silly gunzTarPerm extractEntry src/pthreads.2/pthread_condattr_getpshared.c
+546 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_condattr_getpshared.c', 438, 436 ]
+547 silly gunzTarPerm extractEntry src/pthreads.2/pthread_condattr_init.c
+548 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_condattr_init.c', 438, 436 ]
+549 silly gunzTarPerm extractEntry src/pthreads.2/pthread_condattr_setpshared.c
+550 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_condattr_setpshared.c', 438, 436 ]
+551 silly gunzTarPerm extractEntry src/pthreads.2/pthread_cond_destroy.c
+552 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_cond_destroy.c', 438, 436 ]
+553 silly gunzTarPerm extractEntry src/pthreads.2/pthread_cond_init.c
+554 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_cond_init.c', 438, 436 ]
+555 silly gunzTarPerm extractEntry src/pthreads.2/pthread_cond_signal.c
+556 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_cond_signal.c', 438, 436 ]
+557 silly gunzTarPerm extractEntry src/pthreads.2/pthread_cond_wait.c
+558 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_cond_wait.c', 438, 436 ]
+559 silly gunzTarPerm extractEntry src/pthreads.2/pthread_delay_np.c
+560 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_delay_np.c', 438, 436 ]
+561 silly gunzTarPerm extractEntry src/pthreads.2/pthread_detach.c
+562 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_detach.c', 438, 436 ]
+563 silly gunzTarPerm extractEntry src/pthreads.2/pthread_equal.c
+564 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_equal.c', 438, 436 ]
+565 silly gunzTarPerm extractEntry src/pthreads.2/pthread_exit.c
+566 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_exit.c', 438, 436 ]
+567 silly gunzTarPerm extractEntry src/pthreads.2/pthread_getconcurrency.c
+568 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_getconcurrency.c', 438, 436 ]
+569 silly gunzTarPerm extractEntry src/pthreads.2/pthread_getschedparam.c
+570 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_getschedparam.c', 438, 436 ]
+571 silly gunzTarPerm extractEntry src/pthreads.2/pthread_getspecific.c
+572 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_getspecific.c', 438, 436 ]
+573 silly gunzTarPerm extractEntry src/pthreads.2/pthread_getw32threadhandle_np.c
+574 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_getw32threadhandle_np.c', 438, 436 ]
+575 silly gunzTarPerm extractEntry src/pthreads.2/pthread_join.c
+576 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_join.c', 438, 436 ]
+577 silly gunzTarPerm extractEntry src/pthreads.2/pthread_key_create.c
+578 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_key_create.c', 438, 436 ]
+579 silly gunzTarPerm extractEntry src/pthreads.2/pthread_key_delete.c
+580 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_key_delete.c', 438, 436 ]
+581 silly gunzTarPerm extractEntry src/pthreads.2/pthread_kill.c
+582 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_kill.c', 438, 436 ]
+583 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_destroy.c
+584 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_destroy.c', 438, 436 ]
+585 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_getkind_np.c
+586 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_getkind_np.c', 438, 436 ]
+587 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_getpshared.c
+588 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_getpshared.c', 438, 436 ]
+589 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_gettype.c
+590 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_gettype.c', 438, 436 ]
+591 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_init.c
+592 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_init.c', 438, 436 ]
+593 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_setkind_np.c
+594 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_setkind_np.c', 438, 436 ]
+595 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_setpshared.c
+596 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_setpshared.c', 438, 436 ]
+597 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutexattr_settype.c
+598 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutexattr_settype.c', 438, 436 ]
+599 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutex_destroy.c
+600 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutex_destroy.c', 438, 436 ]
+601 silly gunzTarPerm extractEntry src/pthreads.2/attr.c
+602 silly gunzTarPerm modified mode [ 'src/pthreads.2/attr.c', 438, 436 ]
+603 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutex_lock.c
+604 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutex_lock.c', 438, 436 ]
+605 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutex_timedlock.c
+606 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutex_timedlock.c', 438, 436 ]
+607 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutex_trylock.c
+608 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutex_trylock.c', 438, 436 ]
+609 silly gunzTarPerm extractEntry src/pthreads.2/pthread_mutex_unlock.c
+610 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_mutex_unlock.c', 438, 436 ]
+611 silly gunzTarPerm extractEntry src/pthreads.2/pthread_num_processors_np.c
+612 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_num_processors_np.c', 438, 436 ]
+613 silly gunzTarPerm extractEntry src/pthreads.2/pthread_once.c
+614 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_once.c', 438, 436 ]
+615 silly gunzTarPerm extractEntry src/pthreads.2/pthread_once.x
+616 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_once.x', 438, 436 ]
+617 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlockattr_destroy.c
+618 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlockattr_destroy.c', 438, 436 ]
+619 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlockattr_getpshared.c
+620 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlockattr_getpshared.c', 438, 436 ]
+621 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlockattr_init.c
+622 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlockattr_init.c', 438, 436 ]
+623 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlockattr_setpshared.c
+624 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlockattr_setpshared.c', 438, 436 ]
+625 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_destroy.c
+626 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_destroy.c', 438, 436 ]
+627 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_init.c
+628 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_init.c', 438, 436 ]
+629 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_rdlock.c
+630 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_rdlock.c', 438, 436 ]
+631 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_timedrdlock.c
+632 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_timedrdlock.c', 438, 436 ]
+633 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_timedwrlock.c
+634 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_timedwrlock.c', 438, 436 ]
+635 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_tryrdlock.c
+636 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_tryrdlock.c', 438, 436 ]
+637 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_trywrlock.c
+638 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_trywrlock.c', 438, 436 ]
+639 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_unlock.c
+640 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_unlock.c', 438, 436 ]
+641 silly gunzTarPerm extractEntry src/pthreads.2/pthread_rwlock_wrlock.c
+642 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_rwlock_wrlock.c', 438, 436 ]
+643 silly gunzTarPerm extractEntry src/pthreads.2/pthread_self.c
+644 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_self.c', 438, 436 ]
+645 silly gunzTarPerm extractEntry src/pthreads.2/pthread_setcancelstate.c
+646 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_setcancelstate.c', 438, 436 ]
+647 silly gunzTarPerm extractEntry src/pthreads.2/pthread_setcanceltype.c
+648 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_setcanceltype.c', 438, 436 ]
+649 silly gunzTarPerm extractEntry src/pthreads.2/pthread_setconcurrency.c
+650 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_setconcurrency.c', 438, 436 ]
+651 silly gunzTarPerm extractEntry src/pthreads.2/pthread_setschedparam.c
+652 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_setschedparam.c', 438, 436 ]
+653 silly gunzTarPerm extractEntry src/pthreads.2/pthread_setspecific.c
+654 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_setspecific.c', 438, 436 ]
+655 silly gunzTarPerm extractEntry src/pthreads.2/pthread_spin_destroy.c
+656 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_spin_destroy.c', 438, 436 ]
+657 silly gunzTarPerm extractEntry src/pthreads.2/pthread_spin_init.c
+658 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_spin_init.c', 438, 436 ]
+659 silly gunzTarPerm extractEntry src/pthreads.2/pthread_spin_lock.c
+660 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_spin_lock.c', 438, 436 ]
+661 silly gunzTarPerm extractEntry src/pthreads.2/pthread_spin_trylock.c
+662 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_spin_trylock.c', 438, 436 ]
+663 silly gunzTarPerm extractEntry src/pthreads.2/pthread_spin_unlock.c
+664 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_spin_unlock.c', 438, 436 ]
+665 silly gunzTarPerm extractEntry src/pthreads.2/pthread_testcancel.c
+666 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_testcancel.c', 438, 436 ]
+667 silly gunzTarPerm extractEntry src/pthreads.2/pthread_timechange_handler_np.c
+668 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_timechange_handler_np.c', 438, 436 ]
+669 silly gunzTarPerm extractEntry src/pthreads.2/pthread_win32_attach_detach_np.c
+670 silly gunzTarPerm modified mode [ 'src/pthreads.2/pthread_win32_attach_detach_np.c', 438, 436 ]
+671 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_calloc.c
+672 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_calloc.c', 438, 436 ]
+673 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_callUserDestroyRoutines.c
+674 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_callUserDestroyRoutines.c', 438, 436 ]
+675 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_cond_check_need_init.c
+676 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_cond_check_need_init.c', 438, 436 ]
+677 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_getprocessors.c
+678 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_getprocessors.c', 438, 436 ]
+679 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_InterlockedCompareExchange.c
+680 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_InterlockedCompareExchange.c', 438, 436 ]
+681 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_is_attr.c
+682 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_is_attr.c', 438, 436 ]
+683 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_MCS_lock.c
+684 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_MCS_lock.c', 438, 436 ]
+685 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_mutex_check_need_init.c
+686 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_mutex_check_need_init.c', 438, 436 ]
+687 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_new.c
+688 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_new.c', 438, 436 ]
+689 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_processInitialize.c
+690 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_processInitialize.c', 438, 436 ]
+691 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_processTerminate.c
+692 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_processTerminate.c', 438, 436 ]
+693 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_relmillisecs.c
+694 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_relmillisecs.c', 438, 436 ]
+695 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_reuse.c
+696 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_reuse.c', 438, 436 ]
+697 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_rwlock_cancelwrwait.c
+698 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_rwlock_cancelwrwait.c', 438, 436 ]
+699 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_rwlock_check_need_init.c
+700 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_rwlock_check_need_init.c', 438, 436 ]
+701 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_semwait.c
+702 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_semwait.c', 438, 436 ]
+703 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_spinlock_check_need_init.c
+704 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_spinlock_check_need_init.c', 438, 436 ]
+705 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_threadDestroy.c
+706 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_threadDestroy.c', 438, 436 ]
+707 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_threadStart.c
+708 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_threadStart.c', 438, 436 ]
+709 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_throw.c
+710 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_throw.c', 438, 436 ]
+711 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_timespec.c
+712 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_timespec.c', 438, 436 ]
+713 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_tkAssocCreate.c
+714 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_tkAssocCreate.c', 438, 436 ]
+715 silly gunzTarPerm extractEntry src/pthreads.2/ptw32_tkAssocDestroy.c
+716 silly gunzTarPerm modified mode [ 'src/pthreads.2/ptw32_tkAssocDestroy.c', 438, 436 ]
+717 silly gunzTarPerm extractEntry src/pthreads.2/ANNOUNCE
+718 silly gunzTarPerm modified mode [ 'src/pthreads.2/ANNOUNCE', 438, 436 ]
+719 silly gunzTarPerm extractEntry src/pthreads.2/README.Borland
+720 silly gunzTarPerm modified mode [ 'src/pthreads.2/README.Borland', 438, 436 ]
+721 silly gunzTarPerm extractEntry src/pthreads.2/README.CV
+722 silly gunzTarPerm modified mode [ 'src/pthreads.2/README.CV', 438, 436 ]
+723 silly gunzTarPerm extractEntry src/pthreads.2/README.NONPORTABLE
+724 silly gunzTarPerm modified mode [ 'src/pthreads.2/README.NONPORTABLE', 438, 436 ]
+725 silly gunzTarPerm extractEntry src/pthreads.2/README.Watcom
+726 silly gunzTarPerm modified mode [ 'src/pthreads.2/README.Watcom', 438, 436 ]
+727 silly gunzTarPerm extractEntry src/pthreads.2/README.WinCE
+728 silly gunzTarPerm modified mode [ 'src/pthreads.2/README.WinCE', 438, 436 ]
+729 silly gunzTarPerm extractEntry src/pthreads.2/rwlock.c
+730 silly gunzTarPerm modified mode [ 'src/pthreads.2/rwlock.c', 438, 436 ]
+731 silly gunzTarPerm extractEntry src/pthreads.2/sched.c
+732 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched.c', 438, 436 ]
+733 silly gunzTarPerm extractEntry src/pthreads.2/sched.h
+734 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched.h', 438, 436 ]
+735 silly gunzTarPerm extractEntry src/pthreads.2/sched_getscheduler.c
+736 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched_getscheduler.c', 438, 436 ]
+737 silly gunzTarPerm extractEntry src/pthreads.2/sched_get_priority_max.c
+738 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched_get_priority_max.c', 438, 436 ]
+739 silly gunzTarPerm extractEntry src/pthreads.2/sched_get_priority_min.c
+740 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched_get_priority_min.c', 438, 436 ]
+741 silly gunzTarPerm extractEntry src/pthreads.2/sched_setscheduler.c
+742 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched_setscheduler.c', 438, 436 ]
+743 silly gunzTarPerm extractEntry src/pthreads.2/sched_yield.c
+744 silly gunzTarPerm modified mode [ 'src/pthreads.2/sched_yield.c', 438, 436 ]
+745 silly gunzTarPerm extractEntry src/pthreads.2/semaphore.c
+746 silly gunzTarPerm modified mode [ 'src/pthreads.2/semaphore.c', 438, 436 ]
+747 silly gunzTarPerm extractEntry src/pthreads.2/semaphore.h
+748 silly gunzTarPerm modified mode [ 'src/pthreads.2/semaphore.h', 438, 436 ]
+749 silly gunzTarPerm extractEntry src/pthreads.2/sem_close.c
+750 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_close.c', 438, 436 ]
+751 silly gunzTarPerm extractEntry src/pthreads.2/sem_destroy.c
+752 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_destroy.c', 438, 436 ]
+753 silly gunzTarPerm extractEntry src/pthreads.2/sem_getvalue.c
+754 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_getvalue.c', 438, 436 ]
+755 silly gunzTarPerm extractEntry src/pthreads.2/sem_init.c
+756 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_init.c', 438, 436 ]
+757 silly gunzTarPerm extractEntry src/pthreads.2/sem_open.c
+758 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_open.c', 438, 436 ]
+759 silly gunzTarPerm extractEntry src/pthreads.2/sem_post.c
+760 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_post.c', 438, 436 ]
+761 silly gunzTarPerm extractEntry src/pthreads.2/sem_post_multiple.c
+762 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_post_multiple.c', 438, 436 ]
+763 silly gunzTarPerm extractEntry src/pthreads.2/sem_timedwait.c
+764 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_timedwait.c', 438, 436 ]
+765 silly gunzTarPerm extractEntry src/pthreads.2/sem_trywait.c
+766 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_trywait.c', 438, 436 ]
+767 silly gunzTarPerm extractEntry src/pthreads.2/sem_unlink.c
+768 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_unlink.c', 438, 436 ]
+769 silly gunzTarPerm extractEntry src/pthreads.2/sem_wait.c
+770 silly gunzTarPerm modified mode [ 'src/pthreads.2/sem_wait.c', 438, 436 ]
+771 silly gunzTarPerm extractEntry src/pthreads.2/signal.c
+772 silly gunzTarPerm modified mode [ 'src/pthreads.2/signal.c', 438, 436 ]
+773 silly gunzTarPerm extractEntry src/pthreads.2/spin.c
+774 silly gunzTarPerm modified mode [ 'src/pthreads.2/spin.c', 438, 436 ]
+775 silly gunzTarPerm extractEntry src/pthreads.2/sync.c
+776 silly gunzTarPerm modified mode [ 'src/pthreads.2/sync.c', 438, 436 ]
+777 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex1.c
+778 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex1.c', 438, 436 ]
+779 silly gunzTarPerm extractEntry src/pthreads.2/tests/barrier1.c
+780 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/barrier1.c', 438, 436 ]
+781 silly gunzTarPerm extractEntry src/pthreads.2/tests/barrier3.c
+782 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/barrier3.c', 438, 436 ]
+783 silly gunzTarPerm extractEntry src/pthreads.2/tests/barrier4.c
+784 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/barrier4.c', 438, 436 ]
+785 silly gunzTarPerm extractEntry src/pthreads.2/tests/barrier5.c
+786 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/barrier5.c', 438, 436 ]
+787 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchlib.c
+788 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchlib.c', 438, 436 ]
+789 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchtest.h
+790 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchtest.h', 438, 436 ]
+791 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchtest1.c
+792 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchtest1.c', 438, 436 ]
+793 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchtest2.c
+794 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchtest2.c', 438, 436 ]
+795 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchtest3.c
+796 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchtest3.c', 438, 436 ]
+797 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchtest4.c
+798 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchtest4.c', 438, 436 ]
+799 silly gunzTarPerm extractEntry src/pthreads.2/tests/benchtest5.c
+800 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/benchtest5.c', 438, 436 ]
+801 silly gunzTarPerm extractEntry src/pthreads.2/tests/Bmakefile
+802 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Bmakefile', 438, 436 ]
+803 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel1.c
+804 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel1.c', 438, 436 ]
+805 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel2.c
+806 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel2.c', 438, 436 ]
+807 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel3.c
+808 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel3.c', 438, 436 ]
+809 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel4.c
+810 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel4.c', 438, 436 ]
+811 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel5.c
+812 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel5.c', 438, 436 ]
+813 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel6a.c
+814 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel6a.c', 438, 436 ]
+815 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel6d.c
+816 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel6d.c', 438, 436 ]
+817 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel7.c
+818 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel7.c', 438, 436 ]
+819 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel8.c
+820 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel8.c', 438, 436 ]
+821 silly gunzTarPerm extractEntry src/pthreads.2/tests/cancel9.c
+822 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cancel9.c', 438, 436 ]
+823 silly gunzTarPerm extractEntry src/pthreads.2/tests/ChangeLog
+824 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/ChangeLog', 438, 436 ]
+825 silly gunzTarPerm extractEntry src/pthreads.2/tests/cleanup0.c
+826 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cleanup0.c', 438, 436 ]
+827 silly gunzTarPerm extractEntry src/pthreads.2/tests/cleanup1.c
+828 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cleanup1.c', 438, 436 ]
+829 silly gunzTarPerm extractEntry src/pthreads.2/tests/cleanup2.c
+830 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cleanup2.c', 438, 436 ]
+831 silly gunzTarPerm extractEntry src/pthreads.2/tests/cleanup3.c
+832 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/cleanup3.c', 438, 436 ]
+833 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar1.c
+834 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar1.c', 438, 436 ]
+835 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar1_1.c
+836 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar1_1.c', 438, 436 ]
+837 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar1_2.c
+838 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar1_2.c', 438, 436 ]
+839 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar2.c
+840 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar2.c', 438, 436 ]
+841 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar2_1.c
+842 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar2_1.c', 438, 436 ]
+843 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar3.c
+844 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar3.c', 438, 436 ]
+845 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar3_1.c
+846 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar3_1.c', 438, 436 ]
+847 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar3_2.c
+848 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar3_2.c', 438, 436 ]
+849 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar3_3.c
+850 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar3_3.c', 438, 436 ]
+851 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar4.c
+852 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar4.c', 438, 436 ]
+853 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar5.c
+854 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar5.c', 438, 436 ]
+855 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar6.c
+856 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar6.c', 438, 436 ]
+857 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar7.c
+858 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar7.c', 438, 436 ]
+859 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar8.c
+860 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar8.c', 438, 436 ]
+861 silly gunzTarPerm extractEntry src/pthreads.2/tests/condvar9.c
+862 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/condvar9.c', 438, 436 ]
+863 silly gunzTarPerm extractEntry src/pthreads.2/tests/context1.c
+864 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/context1.c', 438, 436 ]
+865 silly gunzTarPerm extractEntry src/pthreads.2/tests/count1.c
+866 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/count1.c', 438, 436 ]
+867 silly gunzTarPerm extractEntry src/pthreads.2/tests/create1.c
+868 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/create1.c', 438, 436 ]
+869 silly gunzTarPerm extractEntry src/pthreads.2/tests/create2.c
+870 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/create2.c', 438, 436 ]
+871 silly gunzTarPerm extractEntry src/pthreads.2/tests/create3.c
+872 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/create3.c', 438, 436 ]
+873 silly gunzTarPerm extractEntry src/pthreads.2/tests/Debug.dsp
+874 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Debug.dsp', 438, 436 ]
+875 silly gunzTarPerm extractEntry src/pthreads.2/tests/Debug.dsw
+876 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Debug.dsw', 438, 436 ]
+877 silly gunzTarPerm extractEntry src/pthreads.2/tests/Debug.plg
+878 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Debug.plg', 438, 436 ]
+879 silly gunzTarPerm extractEntry src/pthreads.2/tests/Debug.txt
+880 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Debug.txt', 438, 436 ]
+881 silly gunzTarPerm extractEntry src/pthreads.2/tests/delay1.c
+882 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/delay1.c', 438, 436 ]
+883 silly gunzTarPerm extractEntry src/pthreads.2/tests/delay2.c
+884 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/delay2.c', 438, 436 ]
+885 silly gunzTarPerm extractEntry src/pthreads.2/tests/detach1.c
+886 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/detach1.c', 438, 436 ]
+887 silly gunzTarPerm extractEntry src/pthreads.2/tests/equal1.c
+888 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/equal1.c', 438, 436 ]
+889 silly gunzTarPerm extractEntry src/pthreads.2/tests/errno1.c
+890 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/errno1.c', 438, 436 ]
+891 silly gunzTarPerm extractEntry src/pthreads.2/tests/exception1.c
+892 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exception1.c', 438, 436 ]
+893 silly gunzTarPerm extractEntry src/pthreads.2/tests/exception2.c
+894 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exception2.c', 438, 436 ]
+895 silly gunzTarPerm extractEntry src/pthreads.2/tests/exception3.c
+896 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exception3.c', 438, 436 ]
+897 silly gunzTarPerm extractEntry src/pthreads.2/tests/exit1.c
+898 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exit1.c', 438, 436 ]
+899 silly gunzTarPerm extractEntry src/pthreads.2/tests/exit2.c
+900 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exit2.c', 438, 436 ]
+901 silly gunzTarPerm extractEntry src/pthreads.2/tests/exit3.c
+902 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exit3.c', 438, 436 ]
+903 silly gunzTarPerm extractEntry src/pthreads.2/tests/exit4.c
+904 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exit4.c', 438, 436 ]
+905 silly gunzTarPerm extractEntry src/pthreads.2/tests/exit5.c
+906 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/exit5.c', 438, 436 ]
+907 silly gunzTarPerm extractEntry src/pthreads.2/tests/eyal1.c
+908 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/eyal1.c', 438, 436 ]
+909 silly gunzTarPerm extractEntry src/pthreads.2/tests/GNUmakefile
+910 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/GNUmakefile', 438, 436 ]
+911 silly gunzTarPerm extractEntry src/pthreads.2/tests/inherit1.c
+912 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/inherit1.c', 438, 436 ]
+913 silly gunzTarPerm extractEntry src/pthreads.2/tests/join0.c
+914 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/join0.c', 438, 436 ]
+915 silly gunzTarPerm extractEntry src/pthreads.2/tests/join1.c
+916 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/join1.c', 438, 436 ]
+917 silly gunzTarPerm extractEntry src/pthreads.2/tests/join2.c
+918 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/join2.c', 438, 436 ]
+919 silly gunzTarPerm extractEntry src/pthreads.2/tests/join3.c
+920 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/join3.c', 438, 436 ]
+921 silly gunzTarPerm extractEntry src/pthreads.2/tests/kill1.c
+922 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/kill1.c', 438, 436 ]
+923 silly gunzTarPerm extractEntry src/pthreads.2/tests/loadfree.c
+924 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/loadfree.c', 438, 436 ]
+925 silly gunzTarPerm extractEntry src/pthreads.2/tests/Makefile
+926 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Makefile', 438, 436 ]
+927 silly gunzTarPerm extractEntry src/pthreads.2/tests/barrier2.c
+928 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/barrier2.c', 438, 436 ]
+929 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex1e.c
+930 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex1e.c', 438, 436 ]
+931 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex1n.c
+932 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex1n.c', 438, 436 ]
+933 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex1r.c
+934 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex1r.c', 438, 436 ]
+935 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex2.c
+936 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex2.c', 438, 436 ]
+937 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex2e.c
+938 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex2e.c', 438, 436 ]
+939 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex2r.c
+940 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex2r.c', 438, 436 ]
+941 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex3.c
+942 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex3.c', 438, 436 ]
+943 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex3e.c
+944 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex3e.c', 438, 436 ]
+945 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex3r.c
+946 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex3r.c', 438, 436 ]
+947 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex4.c
+948 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex4.c', 438, 436 ]
+949 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex5.c
+950 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex5.c', 438, 436 ]
+951 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6.c
+952 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6.c', 438, 436 ]
+953 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6e.c
+954 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6e.c', 438, 436 ]
+955 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6es.c
+956 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6es.c', 438, 436 ]
+957 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6n.c
+958 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6n.c', 438, 436 ]
+959 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6r.c
+960 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6r.c', 438, 436 ]
+961 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6rs.c
+962 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6rs.c', 438, 436 ]
+963 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex6s.c
+964 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex6s.c', 438, 436 ]
+965 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex7.c
+966 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex7.c', 438, 436 ]
+967 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex7e.c
+968 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex7e.c', 438, 436 ]
+969 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex7n.c
+970 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex7n.c', 438, 436 ]
+971 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex7r.c
+972 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex7r.c', 438, 436 ]
+973 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex8.c
+974 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex8.c', 438, 436 ]
+975 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex8e.c
+976 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex8e.c', 438, 436 ]
+977 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex8n.c
+978 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex8n.c', 438, 436 ]
+979 silly gunzTarPerm extractEntry src/pthreads.2/tests/mutex8r.c
+980 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/mutex8r.c', 438, 436 ]
+981 silly gunzTarPerm extractEntry src/pthreads.2/tests/once1.c
+982 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/once1.c', 438, 436 ]
+983 silly gunzTarPerm extractEntry src/pthreads.2/tests/once2.c
+984 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/once2.c', 438, 436 ]
+985 silly gunzTarPerm extractEntry src/pthreads.2/tests/once3.c
+986 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/once3.c', 438, 436 ]
+987 silly gunzTarPerm extractEntry src/pthreads.2/tests/once4.c
+988 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/once4.c', 438, 436 ]
+989 silly gunzTarPerm extractEntry src/pthreads.2/tests/priority1.c
+990 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/priority1.c', 438, 436 ]
+991 silly gunzTarPerm extractEntry src/pthreads.2/tests/priority2.c
+992 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/priority2.c', 438, 436 ]
+993 silly gunzTarPerm extractEntry src/pthreads.2/tests/readme
+994 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/readme', 438, 436 ]
+995 silly gunzTarPerm extractEntry src/pthreads.2/tests/README.BENCHTESTS
+996 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/README.BENCHTESTS', 438, 436 ]
+997 silly gunzTarPerm extractEntry src/pthreads.2/tests/reuse1.c
+998 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/reuse1.c', 438, 436 ]
+999 silly gunzTarPerm extractEntry src/pthreads.2/tests/reuse2.c
+1000 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/reuse2.c', 438, 436 ]
+1001 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock1.c
+1002 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock1.c', 438, 436 ]
+1003 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock2.c
+1004 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock2.c', 438, 436 ]
+1005 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock2_t.c
+1006 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock2_t.c', 438, 436 ]
+1007 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock3.c
+1008 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock3.c', 438, 436 ]
+1009 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock3_t.c
+1010 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock3_t.c', 438, 436 ]
+1011 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock4.c
+1012 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock4.c', 438, 436 ]
+1013 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock4_t.c
+1014 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock4_t.c', 438, 436 ]
+1015 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock5.c
+1016 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock5.c', 438, 436 ]
+1017 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock5_t.c
+1018 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock5_t.c', 438, 436 ]
+1019 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock6.c
+1020 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock6.c', 438, 436 ]
+1021 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock6_t.c
+1022 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock6_t.c', 438, 436 ]
+1023 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock6_t2.c
+1024 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock6_t2.c', 438, 436 ]
+1025 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock7.c
+1026 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock7.c', 438, 436 ]
+1027 silly gunzTarPerm extractEntry src/pthreads.2/tests/rwlock8.c
+1028 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/rwlock8.c', 438, 436 ]
+1029 silly gunzTarPerm extractEntry src/pthreads.2/tests/self1.c
+1030 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/self1.c', 438, 436 ]
+1031 silly gunzTarPerm extractEntry src/pthreads.2/tests/self2.c
+1032 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/self2.c', 438, 436 ]
+1033 silly gunzTarPerm extractEntry src/pthreads.2/tests/semaphore1.c
+1034 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/semaphore1.c', 438, 436 ]
+1035 silly gunzTarPerm extractEntry src/pthreads.2/tests/semaphore2.c
+1036 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/semaphore2.c', 438, 436 ]
+1037 silly gunzTarPerm extractEntry src/pthreads.2/tests/semaphore3.c
+1038 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/semaphore3.c', 438, 436 ]
+1039 silly gunzTarPerm extractEntry src/pthreads.2/tests/semaphore4.c
+1040 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/semaphore4.c', 438, 436 ]
+1041 silly gunzTarPerm extractEntry src/pthreads.2/tests/semaphore4t.c
+1042 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/semaphore4t.c', 438, 436 ]
+1043 silly gunzTarPerm extractEntry src/pthreads.2/tests/sizes.c
+1044 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/sizes.c', 438, 436 ]
+1045 silly gunzTarPerm extractEntry src/pthreads.2/tests/sizes.gc
+1046 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/sizes.gc', 438, 436 ]
+1047 silly gunzTarPerm extractEntry src/pthreads.2/tests/sizes.gce
+1048 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/sizes.gce', 438, 436 ]
+1049 silly gunzTarPerm extractEntry src/pthreads.2/tests/sizes.vc
+1050 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/sizes.vc', 438, 436 ]
+1051 silly gunzTarPerm extractEntry src/pthreads.2/tests/sizes.vse
+1052 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/sizes.vse', 438, 436 ]
+1053 silly gunzTarPerm extractEntry src/pthreads.2/tests/spin1.c
+1054 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/spin1.c', 438, 436 ]
+1055 silly gunzTarPerm extractEntry src/pthreads.2/tests/spin2.c
+1056 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/spin2.c', 438, 436 ]
+1057 silly gunzTarPerm extractEntry src/pthreads.2/tests/spin3.c
+1058 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/spin3.c', 438, 436 ]
+1059 silly gunzTarPerm extractEntry src/pthreads.2/tests/spin4.c
+1060 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/spin4.c', 438, 436 ]
+1061 silly gunzTarPerm extractEntry src/pthreads.2/tests/stress1.c
+1062 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/stress1.c', 438, 436 ]
+1063 silly gunzTarPerm extractEntry src/pthreads.2/tests/test.h
+1064 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/test.h', 438, 436 ]
+1065 silly gunzTarPerm extractEntry src/pthreads.2/tests/tryentercs.c
+1066 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/tryentercs.c', 438, 436 ]
+1067 silly gunzTarPerm extractEntry src/pthreads.2/tests/tryentercs2.c
+1068 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/tryentercs2.c', 438, 436 ]
+1069 silly gunzTarPerm extractEntry src/pthreads.2/tests/tsd1.c
+1070 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/tsd1.c', 438, 436 ]
+1071 silly gunzTarPerm extractEntry src/pthreads.2/tests/tsd2.c
+1072 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/tsd2.c', 438, 436 ]
+1073 silly gunzTarPerm extractEntry src/pthreads.2/tests/valid1.c
+1074 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/valid1.c', 438, 436 ]
+1075 silly gunzTarPerm extractEntry src/pthreads.2/tests/valid2.c
+1076 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/valid2.c', 438, 436 ]
+1077 silly gunzTarPerm extractEntry src/pthreads.2/tests/Wmakefile
+1078 silly gunzTarPerm modified mode [ 'src/pthreads.2/tests/Wmakefile', 438, 436 ]
+1079 silly gunzTarPerm extractEntry src/pthreads.2/TODO
+1080 silly gunzTarPerm modified mode [ 'src/pthreads.2/TODO', 438, 436 ]
+1081 silly gunzTarPerm extractEntry src/pthreads.2/tsd.c
+1082 silly gunzTarPerm modified mode [ 'src/pthreads.2/tsd.c', 438, 436 ]
+1083 silly gunzTarPerm extractEntry src/pthreads.2/version.rc
+1084 silly gunzTarPerm modified mode [ 'src/pthreads.2/version.rc', 438, 436 ]
+1085 silly gunzTarPerm extractEntry src/pthreads.2/w32_CancelableWait.c
+1086 silly gunzTarPerm modified mode [ 'src/pthreads.2/w32_CancelableWait.c', 438, 436 ]
+1087 silly gunzTarPerm extractEntry src/pthreads.2/WinCE-PORT
+1088 silly gunzTarPerm modified mode [ 'src/pthreads.2/WinCE-PORT', 438, 436 ]
+1089 silly gunzTarPerm extractEntry src/queues_a_gogo.cpp
+1090 silly gunzTarPerm modified mode [ 'src/queues_a_gogo.cpp', 438, 436 ]
+1091 silly gunzTarPerm extractEntry src/threads_a_gogo.cpp
+1092 silly gunzTarPerm modified mode [ 'src/threads_a_gogo.cpp', 438, 436 ]
+1093 silly gunzTarPerm extractEntry src/load.js.c
+1094 silly gunzTarPerm modified mode [ 'src/load.js.c', 438, 436 ]
+1095 silly gunzTarPerm extractEntry src/object_toString.js.c
+1096 silly gunzTarPerm modified mode [ 'src/object_toString.js.c', 438, 436 ]
+1097 silly gunzTarPerm extractEntry test/child.js
+1098 silly gunzTarPerm modified mode [ 'test/child.js', 438, 436 ]
+1099 silly gunzTarPerm extractEntry test/child_pool.js
+1100 silly gunzTarPerm modified mode [ 'test/child_pool.js', 438, 436 ]
+1101 silly gunzTarPerm extractEntry test/http_server.js
+1102 silly gunzTarPerm modified mode [ 'test/http_server.js', 438, 436 ]
+1103 silly gunzTarPerm extractEntry test/main_test.js
+1104 silly gunzTarPerm modified mode [ 'test/main_test.js', 438, 436 ]
+1105 silly gunzTarPerm extractEntry test/pool.js
+1106 silly gunzTarPerm modified mode [ 'test/pool.js', 438, 436 ]
+1107 silly gunzTarPerm extractEntry test/quick.js
+1108 silly gunzTarPerm modified mode [ 'test/quick.js', 438, 436 ]
+1109 silly gunzTarPerm extractEntry test/require_blk.js
+1110 silly gunzTarPerm modified mode [ 'test/require_blk.js', 438, 436 ]
+1111 silly gunzTarPerm extractEntry test/child/child.js
+1112 silly gunzTarPerm modified mode [ 'test/child/child.js', 438, 436 ]
+1113 silly gunzTarPerm extractEntry test/child/require_blk.js
+1114 silly gunzTarPerm modified mode [ 'test/child/require_blk.js', 438, 436 ]
+1115 silly gunzTarPerm extractEntry test/pool/pool.js
+1116 silly gunzTarPerm modified mode [ 'test/pool/pool.js', 438, 436 ]
+1117 silly gunzTarPerm extractEntry test/pool/require_blk.js
+1118 silly gunzTarPerm modified mode [ 'test/pool/require_blk.js', 438, 436 ]
+1119 silly gunzTarPerm extractEntry AUTHORS
+1120 silly gunzTarPerm modified mode [ 'AUTHORS', 438, 436 ]
+1121 silly gunzTarPerm extractEntry tmp/.tmp
+1122 silly gunzTarPerm modified mode [ 'tmp/.tmp', 438, 436 ]
+1123 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0/node_modules is being purged
+1124 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0/node_modules
+1125 http 200 https://registry.npmjs.org/ejs
+1126 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+1126 verbose headers   server: 'UploadServer',
+1126 verbose headers   'cache-control': 'max-age=300',
+1126 verbose headers   'last-modified': 'Sat, 5 May 2018 18:52:31 GMT',
+1126 verbose headers   etag: '"5aedfd6f-13cf3"',
+1126 verbose headers   'x-npm-region': 'Asia',
+1126 verbose headers   'content-encoding': 'gzip',
+1126 verbose headers   'content-length': '13999',
+1126 verbose headers   'accept-ranges': 'bytes',
+1126 verbose headers   date: 'Tue, 08 May 2018 08:51:54 GMT',
+1126 verbose headers   via: '1.1 varnish',
+1126 verbose headers   age: '5049',
+1126 verbose headers   connection: 'keep-alive',
+1126 verbose headers   'x-served-by': 'cache-nrt6145-NRT',
+1126 verbose headers   'x-cache': 'HIT',
+1126 verbose headers   'x-cache-hits': '25',
+1126 verbose headers   'x-timer': 'S1525769515.530787,VS0,VE0',
+1126 verbose headers   vary: 'Accept-Encoding, Accept' }
+1127 silly get cb [ 200,
+1127 silly get   { 'content-type': 'application/json; charset=UTF-8',
+1127 silly get     server: 'UploadServer',
+1127 silly get     'cache-control': 'max-age=300',
+1127 silly get     'last-modified': 'Sat, 5 May 2018 18:52:31 GMT',
+1127 silly get     etag: '"5aedfd6f-13cf3"',
+1127 silly get     'x-npm-region': 'Asia',
+1127 silly get     'content-encoding': 'gzip',
+1127 silly get     'content-length': '13999',
+1127 silly get     'accept-ranges': 'bytes',
+1127 silly get     date: 'Tue, 08 May 2018 08:51:54 GMT',
+1127 silly get     via: '1.1 varnish',
+1127 silly get     age: '5049',
+1127 silly get     connection: 'keep-alive',
+1127 silly get     'x-served-by': 'cache-nrt6145-NRT',
+1127 silly get     'x-cache': 'HIT',
+1127 silly get     'x-cache-hits': '25',
+1127 silly get     'x-timer': 'S1525769515.530787,VS0,VE0',
+1127 silly get     vary: 'Accept-Encoding, Accept' } ]
+1128 verbose get saving ejs to /home/jmc/.npm/registry.npmjs.org/ejs/.cache.json
+1129 silly mapToRegistry name ejs
+1130 silly mapToRegistry using default registry
+1131 silly mapToRegistry registry https://registry.npmjs.org/
+1132 silly mapToRegistry uri https://registry.npmjs.org/ejs
+1133 verbose addRemoteTarball https://registry.npmjs.org/ejs/-/ejs-2.5.9.tgz not in flight; adding
+1134 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.5.9.tgz',
+1134 verbose addRemoteTarball   '7ba254582a560d267437109a68354112475b0ce5' ]
+1135 info retry fetch attempt 1 at 下午4:51:54
+1136 info attempt registry request try #1 at 下午4:51:54
+1137 http fetch GET https://registry.npmjs.org/ejs/-/ejs-2.5.9.tgz
+1138 http 200 https://registry.npmjs.org/socket.io
+1139 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+1139 verbose headers   server: 'UploadServer',
+1139 verbose headers   'cache-control': 'max-age=300',
+1139 verbose headers   'last-modified': 'Tue, 17 Apr 2018 8:48:51 GMT',
+1139 verbose headers   etag: '"5ad5b4f3-29da0"',
+1139 verbose headers   'x-npm-region': 'Asia',
+1139 verbose headers   'content-encoding': 'gzip',
+1139 verbose headers   'content-length': '21351',
+1139 verbose headers   'accept-ranges': 'bytes',
+1139 verbose headers   date: 'Tue, 08 May 2018 08:51:54 GMT',
+1139 verbose headers   via: '1.1 varnish',
+1139 verbose headers   age: '10154',
+1139 verbose headers   connection: 'keep-alive',
+1139 verbose headers   'x-served-by': 'cache-nrt6130-NRT',
+1139 verbose headers   'x-cache': 'HIT',
+1139 verbose headers   'x-cache-hits': '25',
+1139 verbose headers   'x-timer': 'S1525769515.529366,VS0,VE0',
+1139 verbose headers   vary: 'Accept-Encoding, Accept' }
+1140 silly get cb [ 200,
+1140 silly get   { 'content-type': 'application/json; charset=UTF-8',
+1140 silly get     server: 'UploadServer',
+1140 silly get     'cache-control': 'max-age=300',
+1140 silly get     'last-modified': 'Tue, 17 Apr 2018 8:48:51 GMT',
+1140 silly get     etag: '"5ad5b4f3-29da0"',
+1140 silly get     'x-npm-region': 'Asia',
+1140 silly get     'content-encoding': 'gzip',
+1140 silly get     'content-length': '21351',
+1140 silly get     'accept-ranges': 'bytes',
+1140 silly get     date: 'Tue, 08 May 2018 08:51:54 GMT',
+1140 silly get     via: '1.1 varnish',
+1140 silly get     age: '10154',
+1140 silly get     connection: 'keep-alive',
+1140 silly get     'x-served-by': 'cache-nrt6130-NRT',
+1140 silly get     'x-cache': 'HIT',
+1140 silly get     'x-cache-hits': '25',
+1140 silly get     'x-timer': 'S1525769515.529366,VS0,VE0',
+1140 silly get     vary: 'Accept-Encoding, Accept' } ]
+1141 verbose get saving socket.io to /home/jmc/.npm/registry.npmjs.org/socket.io/.cache.json
+1142 silly mapToRegistry name socket.io
+1143 silly mapToRegistry using default registry
+1144 silly mapToRegistry registry https://registry.npmjs.org/
+1145 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+1146 verbose addRemoteTarball https://registry.npmjs.org/socket.io/-/socket.io-2.1.0.tgz not in flight; adding
+1147 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-2.1.0.tgz',
+1147 verbose addRemoteTarball   'de77161795b6303e7aefc982ea04acb0cec17395' ]
+1148 info retry fetch attempt 1 at 下午4:51:54
+1149 info attempt registry request try #1 at 下午4:51:54
+1150 http fetch GET https://registry.npmjs.org/socket.io/-/socket.io-2.1.0.tgz
+1151 http fetch 200 https://registry.npmjs.org/ejs/-/ejs-2.5.9.tgz
+1152 http fetch 200 https://registry.npmjs.org/socket.io/-/socket.io-2.1.0.tgz
+1153 silly fetchAndShaCheck shasum de77161795b6303e7aefc982ea04acb0cec17395
+1154 verbose addTmpTarball /tmp/npm-25275-05949c0f/registry.npmjs.org/socket.io/-/socket.io-2.1.0.tgz not in flight; adding
+1155 verbose addTmpTarball already have metadata; skipping unpack for socket.io@2.1.0
+1156 verbose unbuild node_modules/.staging/socket.io-3477b73b
+1157 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b is being purged from base /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node
+1158 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b
+1159 verbose tar unpack /home/jmc/.npm/socket.io/2.1.0/package.tgz
+1160 verbose tar unpacking to /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b
+1161 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b is being purged
+1162 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b
+1163 silly gunzTarPerm modes [ '775', '664' ]
+1164 silly gunzTarPerm extractEntry package.json
+1165 silly gunzTarPerm extractEntry LICENSE
+1166 silly gunzTarPerm extractEntry Readme.md
+1167 silly gunzTarPerm extractEntry lib/client.js
+1168 silly gunzTarPerm extractEntry lib/index.js
+1169 silly gunzTarPerm extractEntry lib/namespace.js
+1170 silly gunzTarPerm extractEntry lib/parent-namespace.js
+1171 silly gunzTarPerm extractEntry lib/socket.js
+1172 silly fetchAndShaCheck shasum 7ba254582a560d267437109a68354112475b0ce5
+1173 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b/node_modules is being purged
+1174 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b/node_modules
+1175 verbose addTmpTarball /tmp/npm-25275-05949c0f/registry.npmjs.org/ejs/-/ejs-2.5.9.tgz not in flight; adding
+1176 verbose addTmpTarball already have metadata; skipping unpack for ejs@2.5.9
+1177 verbose unbuild node_modules/.staging/ejs-fa4e1186
+1178 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186 is being purged from base /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node
+1179 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186
+1180 verbose tar unpack /home/jmc/.npm/ejs/2.5.9/package.tgz
+1181 verbose tar unpacking to /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186
+1182 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186 is being purged
+1183 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186
+1184 silly gunzTarPerm modes [ '775', '664' ]
+1185 silly gunzTarPerm extractEntry
+1186 silly gunzTarPerm modified mode [ '', 493, 509 ]
+1187 silly gunzTarPerm extractEntry ejs.js
+1188 silly gunzTarPerm modified mode [ 'ejs.js', 420, 436 ]
+1189 silly gunzTarPerm extractEntry ejs.min.js
+1190 silly gunzTarPerm modified mode [ 'ejs.min.js', 420, 436 ]
+1191 silly gunzTarPerm extractEntry Jakefile
+1192 silly gunzTarPerm modified mode [ 'Jakefile', 420, 436 ]
+1193 silly gunzTarPerm extractEntry lib/
+1194 silly gunzTarPerm modified mode [ 'lib/', 493, 509 ]
+1195 silly gunzTarPerm extractEntry LICENSE
+1196 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1197 silly gunzTarPerm extractEntry package.json
+1198 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1199 silly gunzTarPerm extractEntry README.md
+1200 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1201 silly gunzTarPerm extractEntry lib/ejs.js
+1202 silly gunzTarPerm modified mode [ 'lib/ejs.js', 493, 509 ]
+1203 silly gunzTarPerm extractEntry lib/utils.js
+1204 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 436 ]
+1205 silly gentlyRm /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186/node_modules is being purged
+1206 verbose gentlyRm don't care about contents; nuking /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186/node_modules
+1207 silly doParallel preinstall 4
+1208 silly preinstall generic-pool@2.0.3 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112
+1209 info lifecycle generic-pool@2.0.3~preinstall: generic-pool@2.0.3
+1210 silly preinstall ejs@2.5.9 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186
+1211 info lifecycle ejs@2.5.9~preinstall: ejs@2.5.9
+1212 silly preinstall socket.io@2.1.0 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b
+1213 info lifecycle socket.io@2.1.0~preinstall: socket.io@2.1.0
+1214 silly preinstall tagg2@0.2.0 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0
+1215 info lifecycle tagg2@0.2.0~preinstall: tagg2@0.2.0
+1216 silly lifecycle generic-pool@2.0.3~preinstall: no script for preinstall, continuing
+1217 silly lifecycle ejs@2.5.9~preinstall: no script for preinstall, continuing
+1218 silly lifecycle socket.io@2.1.0~preinstall: no script for preinstall, continuing
+1219 verbose lifecycle tagg2@0.2.0~preinstall: unsafe-perm in lifecycle true
+1220 verbose lifecycle tagg2@0.2.0~preinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0/node_modules/.bin:/home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.bin:/home/jmc/bin:/home/jmc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+1221 verbose lifecycle tagg2@0.2.0~preinstall: CWD: /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0
+1222 silly lifecycle tagg2@0.2.0~preinstall: Args: [ '-c', 'node install.js' ]
+1223 silly lifecycle tagg2@0.2.0~preinstall: Returned: code: 0  signal: null
+1224 silly doReverseSerial remove 0
+1225 silly doSerial move 0
+1226 silly doSerial finalize 4
+1227 silly finalize /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/generic-pool
+1228 silly finalize /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/ejs
+1229 silly finalize /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/socket.io
+1230 silly finalize /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/tagg2
+1231 silly doSerial build 4
+1232 silly build generic-pool@2.0.3
+1233 info linkStuff generic-pool@2.0.3
+1234 silly linkStuff generic-pool@2.0.3 has /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules as its parent node_modules
+1235 verbose linkBins generic-pool@2.0.3
+1236 verbose linkMans generic-pool@2.0.3
+1237 silly build ejs@2.5.9
+1238 info linkStuff ejs@2.5.9
+1239 silly linkStuff ejs@2.5.9 has /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules as its parent node_modules
+1240 verbose linkBins ejs@2.5.9
+1241 verbose linkMans ejs@2.5.9
+1242 silly build socket.io@2.1.0
+1243 info linkStuff socket.io@2.1.0
+1244 silly linkStuff socket.io@2.1.0 has /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules as its parent node_modules
+1245 verbose linkBins socket.io@2.1.0
+1246 verbose linkMans socket.io@2.1.0
+1247 silly build tagg2@0.2.0
+1248 info linkStuff tagg2@0.2.0
+1249 silly linkStuff tagg2@0.2.0 has /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules as its parent node_modules
+1250 verbose linkBins tagg2@0.2.0
+1251 verbose linkMans tagg2@0.2.0
+1252 silly doSerial global-link 0
+1253 silly doParallel update-linked 0
+1254 silly doSerial install 4
+1255 silly install generic-pool@2.0.3 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/generic-pool-9e622112
+1256 info lifecycle generic-pool@2.0.3~install: generic-pool@2.0.3
+1257 silly lifecycle generic-pool@2.0.3~install: no script for install, continuing
+1258 silly install ejs@2.5.9 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/ejs-fa4e1186
+1259 info lifecycle ejs@2.5.9~install: ejs@2.5.9
+1260 silly lifecycle ejs@2.5.9~install: no script for install, continuing
+1261 silly install socket.io@2.1.0 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/socket.io-3477b73b
+1262 info lifecycle socket.io@2.1.0~install: socket.io@2.1.0
+1263 silly lifecycle socket.io@2.1.0~install: no script for install, continuing
+1264 silly install tagg2@0.2.0 /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging/tagg2-bc974de0
+1265 info lifecycle tagg2@0.2.0~install: tagg2@0.2.0
+1266 verbose lifecycle tagg2@0.2.0~install: unsafe-perm in lifecycle true
+1267 verbose lifecycle tagg2@0.2.0~install: PATH: /usr/share/npm/bin/node-gyp-bin:/home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/tagg2/node_modules/.bin:/home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.bin:/home/jmc/bin:/home/jmc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+1268 verbose lifecycle tagg2@0.2.0~install: CWD: /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/tagg2
+1269 silly lifecycle tagg2@0.2.0~install: Args: [ '-c', 'node-gyp rebuild' ]
+1270 silly lifecycle tagg2@0.2.0~install: Returned: code: 1  signal: null
+1271 info lifecycle tagg2@0.2.0~install: Failed to exec install script
+1272 verbose unlock done using /home/jmc/.npm/_locks/staging-3dfac1e1e7f14184.lock for /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node/node_modules/.staging
+1273 silly rollbackFailedOptional Starting
+1274 silly rollbackFailedOptional Finishing
+1275 silly runTopLevelLifecycles Starting
+1276 silly runTopLevelLifecycles Finishing
+1277 silly install printInstalled
+1278 verbose stack Error: tagg2@0.2.0 install: `node-gyp rebuild`
+1278 verbose stack Exit status 1
+1278 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+1278 verbose stack     at emitTwo (events.js:87:13)
+1278 verbose stack     at EventEmitter.emit (events.js:172:7)
+1278 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+1278 verbose stack     at emitTwo (events.js:87:13)
+1278 verbose stack     at ChildProcess.emit (events.js:172:7)
+1278 verbose stack     at maybeClose (internal/child_process.js:821:16)
+1278 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1279 verbose pkgid tagg2@0.2.0
+1280 verbose cwd /home/jmc/workspace/Alumni_24.2012.3.7/Code/Server/node
+1281 error Linux 4.13.0-38-generic
+1282 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "tagg2"
+1283 error node v4.2.6
+1284 error npm  v3.5.2
+1285 error code ELIFECYCLE
+1286 error tagg2@0.2.0 install: `node-gyp rebuild`
+1286 error Exit status 1
+1287 error Failed at the tagg2@0.2.0 install script 'node-gyp rebuild'.
+1287 error Make sure you have the latest version of node.js and npm installed.
+1287 error If you do, this is most likely a problem with the tagg2 package,
+1287 error not with npm itself.
+1287 error Tell the author that this fails on your system:
+1287 error     node-gyp rebuild
+1287 error You can get information on how to open an issue for this project with:
+1287 error     npm bugs tagg2
+1287 error Or if that isn't available, you can get their info via:
+1287 error     npm owner ls tagg2
+1287 error There is likely additional logging output above.
+1288 verbose exit [ 1, true ]
+>>>>>>> d10c2dd070d8e1925a7869002117d82fafdb893f

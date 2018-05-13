@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.test.jmc.ThreadItem"/>
+<fullyQualifiedTypeName name="com.test.jmc.ThreadTest"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="org.java_websocket.WebSocket"/>
+<fullyQualifiedTypeName name="org.java_websocket.server.WebSocketServer"/>
+<fullyQualifiedTypeName name="com.jmc.MyWebSocketServer"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

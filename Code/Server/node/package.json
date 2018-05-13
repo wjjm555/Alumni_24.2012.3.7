@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "",
     "version": "0.0.0",
     "private": true,
@@ -21,4 +22,23 @@
     "description": "A simple chat client using socket.io",
     "author": "JMC",
     "license": "BSD"
+=======
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.5.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "socket.io": "^2.1.0",
+    "tagg": "^1.1.0"
+  }
+>>>>>>> d10c2dd070d8e1925a7869002117d82fafdb893f
 }

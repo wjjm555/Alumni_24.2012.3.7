@@ -1,0 +1,8 @@
+package com.jmc;
+
+public class Main {
+	TestClass tc;
+	public static void main(String[] args) {
+		System.out.println("Hello World !");
+	}
+}
