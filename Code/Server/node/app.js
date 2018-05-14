@@ -10,13 +10,13 @@ var usersRouter = require('./routes/users');
 var chat = require('./routes/chat');
 var ejs = require('ejs');
 
-var Card = require('./public/javascripts/model/standardCard');
+// var Card = require('./public/javascripts/model/standardCard');
 
 var app = express();
 
 // console.debug(structure.a);
-var card = new Card();
-card.testThread();
+// var card = new Card();
+// card.testThread();
 // console.debug(card);
 // structure.test();
 // var round = Round('cjm');
