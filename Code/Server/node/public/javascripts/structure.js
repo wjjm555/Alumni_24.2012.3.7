@@ -1,30 +1,5 @@
-class Skill {
-    constructor(name) {
-        this.name = name
-    }
-}
-class Role {
-    constructor(name, skills) {
-        this.name = name
-        this.skills = skills
-    }
-}
-
-class Round {
-    constructor() {
-        this.roles = [new Role('a', [new Skill('qaz')]), new Role('b'), new Role('c'), new Role('d'), new Role('e')]
-    }
-
-    toString() {
-        return JSON.stringify(this);
-    }
-}
-class Player {
-
-}
-class Board {
-
-}
+var uuidMap = new Map();
+var codeMap = new Map();
 
 function test() {
     let i = JSON.stringify(structure.round);

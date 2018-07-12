@@ -1,7 +1,0 @@
-package com.gbs.app.model.skills;
-
-import com.gbs.app.model.Base;
-
-public class Skill extends Base {
-
-}

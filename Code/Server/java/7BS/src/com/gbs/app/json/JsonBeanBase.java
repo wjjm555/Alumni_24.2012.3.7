@@ -1,5 +1,13 @@
 package com.gbs.app.json;
 
-public class JsonBeanBase {
+import com.google.gson.annotations.Expose;
+
+public class JsonBeanBase extends JsonBean {
+	@Expose
 	public String type, content;
+
+	public JsonBeanBase(String type, String content) {
+		this.type = type;
+		this.content = content;
+	}
 }

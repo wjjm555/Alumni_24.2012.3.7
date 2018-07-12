@@ -1,6 +1,7 @@
 package com.gbs.app.utils;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class JsonUtils {
 	private Gson gson;
@@ -14,7 +15,7 @@ public class JsonUtils {
 	}
 
 	public JsonUtils() {
-		gson = new Gson();
+		gson = new GsonBuilder().setPrettyPrinting().excludeFieldsWithoutExposeAnnotation().create();
 	}
 
 	public <T> T fromJson(String json, Class<T> classOfT) {

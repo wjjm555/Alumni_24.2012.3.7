@@ -9,9 +9,65 @@
       <title>eclipse.org</title>
       <link>http://www.eclipse.org</link>
     </image>
+        <item>
+      <title><![CDATA[Eclipse Newsletter - A First Look at Jakarta EE]]></title>
+      <link><![CDATA[https://www.eclipse.org/community/eclipse_newsletter/2018/may/]]></link>
+      <description><![CDATA[This month, read eight great pieces to get informed about various parts of Jakarta EE.]]></description>
+      <pubDate>Mon, 04 June 2018 5:40:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
+    <item>
+      <title><![CDATA[RC2 now available for Eclipse Photon]]></title>
+      <link><![CDATA[https://www.eclipse.org/downloads/index-developer.php]]></link>
+      <description><![CDATA[Download and test release candidate 2 for Eclipse Photon!]]></description>
+      <pubDate>Fri, 01 June 2018 11:00:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
+    <item>
+      <title><![CDATA[Updates to our Privacy Policy]]></title>
+      <link><![CDATA[https://blogs.eclipse.org/post/thabang-mashologu/updates-our-privacy-policy]]></link>
+      <description><![CDATA[The Eclipse Foundation has updated it's privacy policy for the protection of your personal data.]]></description>
+      <pubDate>Fri, 25 May 2018 10:00:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
+    <item>
+      <title><![CDATA[EclipseCon Europe 2018 Call for Papers]]></title>
+      <link><![CDATA[http://www.eclipsecon.org/europe2018]]></link>
+      <description><![CDATA[Review the CFP, talk with your team and submit your talks today!]]></description>
+      <pubDate>Mon, 14 May 2018 13:00:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
+    <item>
+      <title><![CDATA[New Proposed Charter for OS.bea Working Group]]></title>
+      <link><![CDATA[https://eclipse.org/org/workinggroups/osbea_wg_charter.php]]></link>
+      <description><![CDATA[New proposed charter for OS.bea Working Group is ready for review. Paticipate by adding feedback on the mailing-list.]]></description>
+      <pubDate>Mon, 14 May 2018 13:00:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
+     <item>
+      <title><![CDATA[Eclipse Common Build Infrastructure: Upcoming Changes]]></title>
+      <link><![CDATA[https://www.youtube.com/watch?v=nvzqdQmw9gY&feature=youtu.be]]></link>
+      <description><![CDATA[Eclipse CBI is undergoing important changes, including Kubernetes/ Docker via Red Hat OpenShift & CloudBees Jenkins Enterprise.]]></description>
+      <pubDate>Thu, 10 May 2018 09:00:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
+    <item>
+      <title><![CDATA[Eclipse Newsletter - Java Tools and Runtimes]]></title>
+      <link><![CDATA[https://www.eclipse.org/community/eclipse_newsletter/2018/april/]]></link>
+      <description><![CDATA[This month, read all about Eclipse projects: Collections, JNoSQL, MicroProfile, OpenJ9, and Vert.x]]></description>
+      <pubDate>Fri, 04 May 2018 05:00:00 EST</pubDate>
+      <category>news</category>
+      <pressrelease>0</pressrelease>
+    </item>
     <item>
       <title><![CDATA[EclipseCon France 2018: Register Early!]]></title>
-      <link><![CDATA[ https://www.eclipsecon.org/france2018/registration]]></link>
+      <link><![CDATA[https://www.eclipsecon.org/france2018/registration]]></link>
       <description><![CDATA[Prices go up after April 30, so register now.]]></description>
       <pubDate>Wed, 25 Apr 2018 08:30:00 EST</pubDate>
       <category>news</category>
