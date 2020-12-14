@@ -4,8 +4,8 @@ var driver = neo4j.driver('bolt://localhost', neo4j.auth.basic('neo4j', 'cjm123.
 var router = express.Router();
 var caches = require('../appcache');
 const SMSClient = require('@alicloud/sms-sdk')
-const accessKeyId = 'LTAIUruWgUL3Ro6O'
-const secretAccessKey = 'fppdTiCSCaDJFFjHe0mB0v3uEVc1cA'
+const accessKeyId = ''
+const secretAccessKey = ''
 
 
 /* GET users listing. */
